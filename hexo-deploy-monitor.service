@@ -1,0 +1,12 @@
+[Unit]
+Description=Hexo Deploy Monitor
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/workspace/hexo_blog
+ExecStart=/usr/bin/uv run /workspace/hexo_blog/main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
