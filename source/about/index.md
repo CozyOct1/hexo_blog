@@ -79,7 +79,7 @@ date: 2025-08-05 19:31:11
     <td>
       <div style="display: flex; align-items: center; gap: 5px;">
         <img src="../images/bili.png" style="height: 1em; width: 1em; object-fit: contain;">
-        <strong>哔哩哔哩股份有限公司 | 大模型&AIGC 研发工程师 | 数码推荐</strong>
+        <strong>上海哔哩哔哩股份有限公司 | 大模型&AIGC 研发工程师 | 数码推荐</strong>
       </div>
     </td>
     <td align="right"><strong>2025.05 - 2025.08</strong></td>
