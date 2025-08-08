@@ -1,0 +1,164 @@
+disqus:
+  enable: false ## 如果您想使用 Disqus 评论系统，请将此值设置为 true。
+  shortname: ## 您的 disqus_shortname，例如 username
+  api: ## 您可以使用 Disqus API 在中国大陆无障碍访问 Disqus 评论，例如 https://disqus.skk.moe/disqus/
+  apikey: ## 您在 Disqus API 应用程序中获得的 API 密钥，例如 yk00ZB1fjYGRkrCrDDRYDUjpp26GJWJiJRZQZ5SY0r3th5FMW6pnSzM nWH7ua7r
+  admin: ## 您的 Disqus 评论管理员用户名，例如 username
+  admin_label: ## Disqus 评论管理员徽章的文本，例如 Mod
+uyan: ## 您的友言 ID，例如 1234567
+livere: ## 您的 LiveRe data-uid，例如 MTAyMC8zMDAxOC78NTgz
+changyan: ## 您的畅言 appid，例如 cyrALsXc8
+changyan_conf: ## 您的畅言 conf，例如 prod_d8a508c2825ab57eeb43e7c69bba0e8b
+gitalk: ## 参见：https://github.com/gitalk/gitalk
+  enable: true ## 如果您想使用 Gitment 评论系统，请将此值设置为 true。
+  owner: CozyOct1
+  repo: CozyOct1.github.io
+  client_id: Ov23ligeuMpXKe7qkcyz
+  client_secret: 59fe16272e6ee77e6ad207e3db0fd846fcb6c809
+  admin: CozyOct1
+valine: ## 参见：https://valine.js.org
+  enable: false ## 如果您想使用 Valine 评论系统，请将此值设置为 true。
+  appid: ## 您的 LeanCloud 应用 App ID，例如 pRBBL2JR4N7kLEGojrF0MsSs-gzGzoHsz
+  appkey: ## 您的 LeanCloud 应用 App Key，例如 tjczHpDfhjYDSYddzymYK1JJ
+  serverURLs: ## 如果您是“中国大陆”的 LeanCloud 用户，则此选项不是强制性的。您的 LeanCloud 的 REST API 服务器 URL，例如 https://prbbl2jr.api.lncldglobal.com
+  notify: false ## 邮件通知，参见 https://github.com/xCss/Valine/wiki/Valine-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92%E8%AE%BE%E7%BD%AE
+  verify: false ## 验证码。
+  placeholder: Just so so ## 评论框占位符。
+  avatar: "mm" ## Gravatar 类型，参见 https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
+  pageSize: 10 ## 每页评论数。
+  guest_info: nick,mail,link ## 评论者属性。
+minivaline: ## 参见：https://github.com/MiniValine/MiniValine
+  enable: false ## 如果您想使用 MiniValine 评论系统，请将此值设置为 true。
+  appId: ## 您的 LeanCloud 应用 App ID，例如 pRBBL2JR4N7kLEGojrF0MsSs-gzGzoHsz
+  appKey: ## 您的 LeanCloud 应用 App Key，例如 tjczHpDfhjYDSYddzymYK1JJ
+  placeholder: Write a Comment ## 评论框占位符。
+  adminEmailMd5: ## 管理员邮箱的 MD5 值，用于显示管理员标志。
+  math: true ## 支持 MathJax。
+  md: true ## 支持 Markdown。
+  # MiniValine 的显示语言取决于用户的浏览器或系统环境
+  # 如果您希望所有访问您网站的人都看到统一的语言，您可以设置一个强制语言值
+  # 可用值：en | zh-CN | (以及更多)
+  # 更多国际化信息：https://github.com/MiniValine/minivaline-i18n
+  lang:
+waline: ## 参见：https://waline.js.org/
+  enable: false ## 如果您想使用 Waline 评论系统，请将此值设置为 true。
+  serverURL: ## 您的服务器 URL，例如 https://your-domain.vercel.app
+  pageSize: 30 ## 每页显示的评论数量。
+  wordLimit: 500 ## 限制评论中的字数，0 表示不限制。
+  requiredMeta: ['nick','mail'] ## 必填的用户信息，例如 ['nick','mail','link']
+  count: 5 ## 在 recent_comments 小部件中显示的评论数量，默认为 10。
+utterances: ## 参见：https://utteranc.es
+  enable: false ## 如果您想使用 Utterances 评论系统，请将此值设置为 true。
+  repo: ## Utterances 将连接到的仓库，例如 tufu9441/comments
+  identifier: title ## 博客文章和 GitHub issues 之间的映射。
+  theme: github-light ## 选择一个与您的博客匹配的 Utterances 主题。
+twikoo: ## 参见：https://twikoo.js.org
+  enable: false ## 如果您想使用 Twikoo 评论系统，请将此值设置为 true。
+  envId: ## 腾讯云开发环境 ID
+  region: ## 腾讯云开发地域，例如 ap-shanghai
+  path: ## 文章路径，例如 window.location.pathname
+
+google_search: false ## 使用 Google 搜索，true/false。
+baidu_search: false ## 使用百度搜索，true/false。
+swiftype: ## 您的 Swiftype 密钥，例如 m7b11ZrsT8Me7gzApciT
+self_search: true ## 使用基于 jQuery 的本地搜索引擎，true/false。
+google_analytics: ## 您的 Google Analytics 跟踪 ID，例如 UA-42425684-2
+baidu_analytics: ## 您的百度统计跟踪 ID，例如 8006843039519956000
+microsoft_clarity: ## 您的 Microsoft Clarity 跟踪 ID，例如 zg2ctuea9j
+fancybox: true ## 如果您想使用 fancybox，请将此值设置为 true。
+show_category_count: true ## 如果您想在侧边栏小部件中显示分类计数，请将此值设置为 true。
+toc_number: true ## 如果您想为目录添加列表编号，请将此值设置为 true。
+shareto: true ## 如果您想使用分享按钮，请将此值设置为 true，并且您必须安装 hexo-helper-qrcode。
+busuanzi: true ## 如果您想使用不蒜子页面访问量统计，请将此值设置为 true。
+wordcount: true ## 如果您想显示字数统计和每篇文章的预计阅读时间，请将此值设置为 true，并且您必须安装 hexo-wordcount。
+widgets_on_small_screens: true ## 设置为 true 以在小屏幕上启用小部件。
+canvas_nest:
+  enable: false ## 如果您想使用动态背景，请将此值设置为 true，您也可以填写以下参数来自定义动态效果，或者留空以保持默认效果。
+  color: ## 颜色的 RGB 值，例如 "100,99,98"
+  opacity: ## 线条的透明度，例如 "0.7"
+  zIndex: ## 背景的 z-index 属性，例如 "-1"
+  count: ## 线条数量，例如 "150"
+donate:
+  enable: false ## 如果您想在每篇文章后显示捐赠按钮，请将此值设置为 true 并根据需要填写以下项目。您也可以通过在 front-matter 中添加 "donate: true" 来在页面中启用捐赠按钮。
+  github: ## GitHub URL，例如 https://github.com/Kaiyuan/donate-page
+  alipay_qr: ## 支付宝二维码图片路径，例如 /img/AliPayQR.png
+  wechat_qr: ## 微信二维码图片路径，例如 /img/WeChatQR.png
+  btc_qr: ## 比特币二维码图片路径，例如 /img/BTCQR.png
+  btc_key: ## 比特币密钥，例如 1KuK5eK2BLsqpsFVXXSBG5wbSAwZVadt6L
+  paypal_url: ## Paypal URL，例如 https://www.paypal.me/tufu9441
+post_copyright:
+  enable: false ## 如果您想在每篇文章后显示版权信息，请将此值设置为 true 并根据需要填写以下项目。
+  author: ## 您的作者姓名，例如 tufu9441
+  copyright_text: ## 您的版权文本，例如 作者拥有版权，转载请注明出处。
+love: true ## 如果您想在点击任意位置时出现爱心，请将此值设置为 true。
+plantuml: ## 使用 PlantUML 生成 UML 图，必须安装 hexo-filter-plantuml (https://github.com/miao1007/hexo-filter-plantuml)。
+  render: "PlantUMLServer" ## 本地或 PlantUMLServer。
+  outputFormat: "svg" ## 常用选项：svg/png
+copycode: true ## 如果您想启用代码块一键复制，请将此值设置为 true。
+dark: true ## 如果您想在亮/暗主题之间切换，请将此值设置为 true。
+totop: true ## 如果您想使用火箭按钮返回顶部，请将此值设置为 true。
+external_css: false ## 如果您想加载外部 CSS 文件，请将此值设置为 true 并在 source/css 文件夹中创建一个名为 "external.css" 的文件。
+post_content_length: 180 ## 设置主页上显示的文章摘要长度，当没有编写描述时。
+icp: ## 仅限中国大陆，在底部显示 ICP 信息。
+
+menu:
+  - page: home
+    directory: .
+    icon: fa-home
+  - page: archive
+    directory: archives/
+    icon: fa-archive
+  - page: about
+    directory: about/
+    icon: fa-user
+
+
+widgets: ## 侧边栏提供七个小部件：搜索、信息、分类、标签、最新文章、最新评论和链接。
+  - search
+  - info
+  - category
+  - tag
+  - recent_posts
+  - recent_comments
+  - links
+
+info:
+  avatar: /img/cozy.png
+  discription: CozyOct1
+  outlinkitem:
+    - img: /img/github.png
+      outlink: https://github.com/CozyOct1
+      message: Github
+    - img: /img/zhihu.png
+      outlink: https://www.zhihu.com/people/CoztOct1
+      message: Zhihu
+    - img: /img/juejin.png
+      outlink: https://juejin.cn/user/3721214711044237
+      message: Juejin
+    - img: /img/csdn.png
+      outlink: https://blog.csdn.net/m0_52962959
+      message: Csdn
+
+
+links:
+  - title: 博客源码
+    url: https://github.com/CozyOct1/hexo_blog
+    src: /img/github.png
+    desc: 博客源码
+
+timeline:
+  - num: 1
+    word: 2014/06/12-开始
+  - num: 2
+    word: 2014/11/29-XXX
+  - num: 3
+    word: 2015/02/18-DDD
+  - num: 4
+    word: 更多
+
+# 静态文件
+js: js
+css: css
+
+# 主题版本
+version: 1.0.0
