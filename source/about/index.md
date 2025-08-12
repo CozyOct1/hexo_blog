@@ -52,6 +52,7 @@ date: 2025-08-05 19:31:11
       <div style="display: flex; align-items: center; gap: 5px;">
         <img src="../images/hfut.png" style="height: 1em; width: 1em; object-fit: contain;">
         <strong>合肥工业大学 | 智能科学与技术 | 本科</strong>
+        <span style="background: #f0f8ff; border: 1px solid #d0e0f0; border-radius: 3px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; margin: 0 8px;">211</span><span style="background: #f0f8ff; border: 1px solid #d0e0f0; border-radius: 3px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; margin: 0 8px;">双一流</span>
       </div>
     </td>
     <td align="right"><strong>2020.09 - 2024.06</strong></td>
@@ -61,6 +62,7 @@ date: 2025-08-05 19:31:11
       <div style="display: flex; align-items: center; gap: 5px;">
         <img src="../images/zju.png" style="height: 1em; width: 1em; object-fit: contain;">
         <strong>浙江大学 | 人工智能 | 硕士</strong>
+        <span style="background: #f0f8ff; border: 1px solid #d0e0f0; border-radius: 3px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; margin: 0 8px;">985</span><span style="background: #f0f8ff; border: 1px solid #d0e0f0; border-radius: 3px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; margin: 0 8px;">211</span><span style="background: #f0f8ff; border: 1px solid #d0e0f0; border-radius: 3px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; margin: 0 8px;">双一流</span>
       </div>
     </td>
     <td align="right"><strong>2024.09 - 2027.06</strong></td>
