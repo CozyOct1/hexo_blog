@@ -1,0 +1,117 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Talk is cheap. Show me the code."><title>Linux服务器环境部署：Anaconda 2025稳定版安装与配置全攻略 | CozyOct1の博客</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/pure-min.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="https://unpkg.com/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/img/cozy.png"><link rel="Shortcut Icon" type="image/x-icon" href="/img/cozy.png"><link rel="apple-touch-icon" href="/img/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon.png"><script type="text/javascript" src="https://unpkg.com/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="https://unpkg.com/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="https://unpkg.com/toastr/build/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+var toggle = document.querySelector('.darkmode-toggle');
+var html = document.querySelector('html');
+
+html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
+
+toggle.addEventListener('click', () => {
+localStorage.dark = !(html.dataset.dark == 'true');
+html.dataset.dark = localStorage.dark;
+});</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Linux服务器环境部署：Anaconda 2025稳定版安装与配置全攻略</h1><a id="logo" href="/.">CozyOct1の博客</a><p class="description">一个简单的博客</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Linux服务器环境部署：Anaconda 2025稳定版安装与配置全攻略</h1><div class="post-meta">2025-09-24<span> | </span><span class="category"><a href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BF%90%E7%BB%B4/">服务器运维</a><a href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BF%90%E7%BB%B4/Python%E5%B7%A5%E5%85%B7/">Python工具</a></span><script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> 阅读</span></span><span class="post-time"><span class="post-meta-item-text"> | </span><span class="post-meta-item-icon"><i class="fa fa-keyboard-o"></i><span class="post-count"> 926</span><span class="post-meta-item-text"> 字</span></span></span><span class="post-time"> | <span class="post-meta-item-icon"><i class="fa fa-clock-o"></i><span class="post-count"> 3</span><span class="post-meta-item-text"> 分钟</span></span></span></div><div class="post-content"><h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>Anaconda是数据科学与机器学习领域的<strong>一站式Python发行版</strong>，预装了NumPy、Pandas、Matplotlib等1500+常用库，还提供<code>conda</code>包管理器用于虚拟环境隔离与依赖管理。在Linux服务器上部署Anaconda 2025稳定版，能统一开发环境、避免库版本冲突，是数据分析师与算法工程师的必备技能。  </p>
+<p>本文将带你完成<strong>从下载到卸载的全流程操作</strong>，覆盖安装配置、常用命令、避坑技巧，帮你快速搭建生产级数据科学环境。</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="步骤1：下载Anaconda-2025稳定版"><a href="#步骤1：下载Anaconda-2025稳定版" class="headerlink" title="步骤1：下载Anaconda 2025稳定版"></a>步骤1：下载Anaconda 2025稳定版</h3><p>使用<code>wget</code>命令从官方源下载最新稳定版（以2025.02版为例，需替换为当前最新版本号）：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://repo.anaconda.com/archive/Anaconda3-2025.02-Linux-x86_64.sh  <span class="comment"># 下载64位安装包</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>注意：  </p>
+<ul>
+<li>官方 archive 地址：<a target="_blank" rel="noopener" href="https://repo.anaconda.com/archive/%EF%BC%88%E5%8F%AF%E6%9F%A5%E8%AF%A2%E6%89%80%E6%9C%89%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC%EF%BC%89">https://repo.anaconda.com/archive/（可查询所有历史版本）</a>  </li>
+<li>若服务器无<code>wget</code>，可先用<code>sudo apt install wget</code>（Debian&#x2F;Ubuntu）或<code>sudo yum install wget</code>（CentOS&#x2F;RHEL）安装。</li>
+</ul>
+</blockquote>
+<h3 id="步骤2：运行安装脚本"><a href="#步骤2：运行安装脚本" class="headerlink" title="步骤2：运行安装脚本"></a>步骤2：运行安装脚本</h3><p>执行以下命令启动安装，按提示完成交互：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash Anaconda3-2025.02-Linux-x86_64.sh  <span class="comment"># 运行安装脚本</span></span><br></pre></td></tr></table></figure>
+<p><strong>关键交互提示</strong>：</p>
+<ol>
+<li>阅读协议：按<code>Enter</code>继续，直到出现<code>Do you accept the license terms? [yes|no]</code>，输入<code>yes</code>。</li>
+<li>选择安装目录：默认<code>/home/your_username/anaconda3</code>，直接按<code>Enter</code>确认（或输入自定义路径，如<code>/opt/anaconda3</code>）。</li>
+<li>添加环境变量：出现<code>Do you wish the installer to initialize Anaconda3 by running conda init? [yes|no]</code>，输入<code>yes</code>（自动修改<code>.bashrc</code>）。</li>
+<li>完成安装：提示<code>Thank you for installing Anaconda3!</code>即完成。</li>
+</ol>
+<h3 id="步骤3：验证安装"><a href="#步骤3：验证安装" class="headerlink" title="步骤3：验证安装"></a>步骤3：验证安装</h3><p>关闭当前终端，重新打开或执行<code>source ~/.bashrc</code>使环境变量生效，运行以下命令验证：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">conda --version  <span class="comment"># 输出conda 25.1.0（对应2025稳定版）</span></span><br><span class="line">python --version  <span class="comment"># 输出Python 3.12.1（Anaconda 2025默认Python版本）</span></span><br></pre></td></tr></table></figure>
+
+
+<h2 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a>卸载</h2><p>若需彻底卸载Anaconda，执行以下步骤：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">rm</span> -rf ~/anaconda3  <span class="comment"># 删除安装目录（替换为你的安装路径）</span></span><br><span class="line">sed -i <span class="string">&#x27;/anaconda3\/bin/d&#x27;</span> ~/.bashrc  <span class="comment"># 从.bashrc中删除环境变量</span></span><br><span class="line">sed -i <span class="string">&#x27;/# &gt;&gt;&gt; conda initialize &gt;&gt;&gt;/,/# &lt;&lt;&lt; conda initialize &lt;&lt;&lt;/d&#x27;</span> ~/.bashrc  <span class="comment"># 清除conda初始化代码</span></span><br><span class="line"><span class="built_in">source</span> ~/.bashrc  <span class="comment"># 生效修改</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>验证卸载：运行<code>conda --version</code>应提示<code>command not found</code>。</p>
+</blockquote>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>以下是<code>conda</code>核心命令的详解（表格形式）：</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>作用</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>conda create</code></td>
+<td>创建虚拟环境</td>
+<td><code>conda create -n ml_env python=3.12</code></td>
+</tr>
+<tr>
+<td><code>conda activate</code></td>
+<td>激活虚拟环境</td>
+<td><code>conda activate ml_env</code></td>
+</tr>
+<tr>
+<td><code>conda install</code></td>
+<td>安装包（支持指定版本）</td>
+<td><code>conda install numpy=1.26 pandas=2.2</code></td>
+</tr>
+<tr>
+<td><code>conda list</code></td>
+<td>查看当前环境的所有包</td>
+<td><code>conda list</code></td>
+</tr>
+<tr>
+<td><code>conda env list</code></td>
+<td>查看所有虚拟环境</td>
+<td><code>conda env list</code></td>
+</tr>
+<tr>
+<td><code>conda remove</code></td>
+<td>删除虚拟环境（需先退出）</td>
+<td><code>conda remove -n ml_env --all</code></td>
+</tr>
+<tr>
+<td><code>conda update</code></td>
+<td>更新conda或包</td>
+<td><code>conda update conda</code>（更新conda）</td>
+</tr>
+</tbody></table>
+<h2 id="常见坑"><a href="#常见坑" class="headerlink" title="常见坑"></a>常见坑</h2><ol>
+<li><p><strong>conda命令找不到</strong>：<br>原因：环境变量未生效。解决：执行<code>source ~/.bashrc</code>，或重新打开终端。</p>
+</li>
+<li><p><strong>激活环境提示<code>command not found</code></strong>：<br>原因：未初始化conda。解决：运行<code>conda init bash</code>，再重启终端。</p>
+</li>
+<li><p><strong>安装时权限错误</strong>：<br>原因：用<code>sudo</code>安装导致普通用户无权限。解决：删除<code>anaconda3</code>目录，重新用普通用户安装（不要加<code>sudo</code>）。</p>
+</li>
+<li><p><strong>与系统Python冲突</strong>：<br>原因：Anaconda的Python覆盖了系统默认Python。解决：使用虚拟环境隔离（<code>conda create</code>创建新环境）。</p>
+</li>
+</ol>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>Anaconda 2025稳定版在Linux服务器的安装核心是<strong>官方源下载+交互安装+环境变量配置</strong>，通过<code>conda</code>可轻松管理虚拟环境与依赖。遵循本文步骤，10分钟内即可搭建生产级数据科学环境。</p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ol>
+<li><a target="_blank" rel="noopener" href="https://www.anaconda.com/products/distribution#download-section">Anaconda官方下载页</a>  </li>
+<li><a target="_blank" rel="noopener" href="https://repo.anaconda.com/archive/">Anaconda Archive（历史版本查询）</a>  </li>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_55106902/article/details/147308606">CSDN博客：Linux服务器Anaconda安装详解</a>  </li>
+<li><a target="_blank" rel="noopener" href="https://blog.51cto.com/u_16099283/13507636">51CTO博客：Linux服务器Anaconda与PyTorch安装</a></li>
+</ol>
+</div><script type="text/javascript" src="/js/share.js?v=1.0.0" async></script><a class="article-share-link" data-url="https://github.com/CozyOct1/CozyOct1.github.io/2025/09/24/input_novel/Linux%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2%EF%BC%9AAnaconda%202025%E7%A8%B3%E5%AE%9A%E7%89%88%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE%E5%85%A8%E6%94%BB%E7%95%A5/" data-id="cmfz1216c0000675bbe1a5oww" data-qrcode="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAAGGCAAAAABa63k5AAAHr0lEQVR42u3bwY4bRwwEUP//TzvXAFlJVWRLbjlPJ2N3NNPdbwLUksyvX/Hn978+j37y6PpHn+f3eX7/fA3v+Pl/15+vefXBgAEDBgwYMHyc4dRhJYt7dH2y4eS5z49ptp72ZGZ7x4ABAwYMGDDczPA8qOUP20fDfBtJnM3vMzuHJMJGJ4ABAwYMGDBg+IsY8oCYHFOCnX93VnBMrpy9RhgwYMCAAQOG/xvDqcCatznb5mLLnIfR9mQwYMCAAQMGDN/O0Ea0/Jq2jdoOirX3bCN12wp9ey8aAwYMGDBgwPBBhjb8+fes8Xng41gxYMCAAQOGDzL8Xnz27cA2wOUBMS/2tcXBvEVanCQGDBgwYMCA4UqGWZEu31i+xOS77wvc7aqSkFo/BQMGDBgwYMBwGcOstdnGzSRcboLvrJWbw+yvefFyYMCAAQMGDBiuZNgX4059a7OSvMPY0rbhuy0gYsCAAQMGDBhuZjjbqkwKgrNC3vM1bJiTb23Kl0mxDwMGDBgwYMBwP8OspZdfsym0bUa+Zk3cd0RhDBgwYMCAAcM3MuyHqN43qnUKO4+VbakxWf+LM8SAAQMGDBgwXMlwtumYL2gTTPPxrFm5MIdpmV/cGQMGDBgwYMBwGUMbEJMGZ96kPFsQbBu3m7DbvprHJvUwYMCAAQMGDH+UYV/2agt8+9bjpgjYHlx+YvlLiQEDBgwYMGC4kyFpRuatyjYgtmW7zbBau87ktThFggEDBgwYMGC4mWE2/pWPT52KvHkgbkfT2nJhXvh7x04xYMCAAQMGDJ9hyANicutZvJs1ZfcFvk14nQXoF01QDBgwYMCAAcNlDPubbgJrGyhPlRTzYtzzp+z//UOFFQMGDBgwYMBwJUOyyfbKPHTmbcv9Jz+g/a7z0iEGDBgwYMCA4TaGfIDp1Pbau22G3ZP1zwb6k6MvCpEYMGDAgAEDhosZZoWtzaB5225sG5bJK9UW/valyYd3wIABAwYMGDBcyXCqETjb8KZhuWHe/LwNte3uMGDAgAEDBgx3MrS3zotxecGuHbFq75AX+9pdtL9NXh0MGDBgwIABw59laG/aNhQ3pcC2eNcG2bYAd6oM+sNvMWDAgAEDBgxXMsyal0l4nTU192H0bDmyjar56NgPz8KAAQMGDBgwXMnwjhGrTXCcPT1vl86KgC3VpuyIAQMGDBgwYLiBId9eW0SbDYfl0TMvCOZ3ayPmLND/sCoMGDBgwIABw/UMyWY2ES0vySVHmV/zjmLfcPLu0T0xYMCAAQMGDF/CkBfd2ti3aSi2g1n78JoDtEE/mtrDgAEDBgwYMFzA8LwR2A5ytQfUlsbyNedPz1+s/UDbi+9iwIABAwYMGC5j2BTC8lLX7EDz8axZSW4/KpeH72JcDAMGDBgwYMBwDcO+/blfRH6g7Qo/U9prG7QYMGDAgAEDhm9kmLUb80JbW9qbheCkUJjvOh9umxUBf7ULwoABAwYMGDB8nGFzHO2W3teqnBUHk1XlTd98sOzhXwwYMGDAgAEDhmsYng9/t22/TStxBt+uv/1J3iLdfDBgwIABAwYMNzNsSn6bguAmUM4Ki3lbd1aszK9/MViPAQMGDBgwYLiAIQ9/yXDYDKwNf7MWY/LdU6XG9lQxYMCAAQMGDHcyJMeRH19bdNsPnL3jPvnrmO/xxUuAAQMGDBgwYLiSYRYu8yUmhMkGWoxT62yD9abJigEDBgwYMGC4jaE9rDaW7Yti+0i6CdmbsbAi4mPAgAEDBgwYrmRo23jJEeRHnwfi2XDbqah66kyKLjQGDBgwYMCA4UqGvKi3KaWtgl0cMRP42R02RcDV3wEYMGDAgAEDhg8yzJbYlvb2A15nrzkbNPP1PHwuBgwYMGDAgOFihmQEalZQm0XMdoitjcWzcHy2dIgBAwYMGDBg+EaGPG62bcI8/m5ejn0jsx0m27R+MWDAgAEDBgw3M5wa5Gpja3Jl8hLkbdrNzzfNznrcDQMGDBgwYMBwDcM7Auu+dZrfZ9+SnJUO21P6A383YMCAAQMGDBjWDMmD99F21oDMj2YTTDfDbbPg++IpGDBgwIABA4ZrGNqY1R7oZvgsKZZtXpoNZN6mjUbZMGDAgAEDBgwXM6yGwkef/ZbyUbOEajZq1j7x4WoxYMCAAQMGDF/CkB9NG9TaMbV8pP7saPv+fwNo26gYMGDAgAEDhvsZ8hbmbHFtKW0WNGdI7d7zVyTaCwYMGDBgwIDhSoZZm3BzWDnYrKxWNyCDO8+au3WUx4ABAwYMGDBcxjBr77WbbDc8Y26Leqfu3O7ih59gwIABAwYMGC5m2DQ4kxLbrFG6+e2+TJkXEPN9PWTDgAEDBgwYMFzJkH/y40gi4/NNttvYh+lNqN2XCDFgwIABAwYMNzO05bn2OJLftoNcszLirKl5KhC/+O8AAwYMGDBgwHAxw2bbbaTLR8o2Kfvd1+/3iAEDBgwYMGD4mxjaBuTZVmi+trbA174WyVPqUI4BAwYMGDBg+HKGdiCsjXRtk/Ido2xJRN5E6mN/N2DAgAEDBgwYPsjQDtO3A2SnGquz1uO7gdvPD7vAgAEDBgwYMFzJ0Db5NmNVmwbqrASZBO5knW2pMX8WBgwYMGDAgOFKhn8AGegF58f4BUIAAAAASUVORK5CYII=">分享</a><div class="tags"><ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Anaconda/" rel="tag">Anaconda</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux%E6%9C%8D%E5%8A%A1%E5%99%A8/" rel="tag">Linux服务器</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/" rel="tag">数据科学</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/" rel="tag">环境部署</a></li></ul></div><div id="container"></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/gitalk/dist/gitalk.css"><script type="text/javascript" src="https://unpkg.com/blueimp-md5/js/md5.js"></script><script type="text/javascript" src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script><script>var gitalk = new Gitalk({
+  clientID: 'Ov23ligeuMpXKe7qkcyz',
+  clientSecret: '59fe16272e6ee77e6ad207e3db0fd846fcb6c809',
+  repo: 'CozyOct1.github.io',
+  owner: 'CozyOct1',
+  admin: ['CozyOct1'],
+  id: md5(location.pathname),
+  distractionFreeMode: false
+})
+gitalk.render('container')
+</script></div></div></div><div class="pure-u-1 pure-u-md-1-4"><div id="sidebar"><div class="widget"><div class="search-form"><input id="local-search-input" placeholder="Search" type="text" name="q" results="0"/><div id="local-search-result"></div></div></div><div class="widget"><div class="author-info"><a class="info-avatar" href="/about/" title="关于"><img class="nofancybox" src="/img/cozy.png"/></a><p>CozyOct1</p><a class="info-icon" href="https://github.com/CozyOct1" title="Github" target="_blank" style="margin-inline:5px"> <img class="nofancybox" src="/img/github.png" style="width:20px; height:20px; vertical-align:middle; margin-inline:5px;"/></a><a class="info-icon" href="https://www.zhihu.com/people/CoztOct1" title="Zhihu" target="_blank" style="margin-inline:5px"> <img class="nofancybox" src="/img/zhihu.png" style="width:20px; height:20px; vertical-align:middle; margin-inline:5px;"/></a><a class="info-icon" href="https://juejin.cn/user/3721214711044237" title="Juejin" target="_blank" style="margin-inline:5px"> <img class="nofancybox" src="/img/juejin.png" style="width:20px; height:20px; vertical-align:middle; margin-inline:5px;"/></a><a class="info-icon" href="https://blog.csdn.net/m0_52962959" title="Csdn" target="_blank" style="margin-inline:5px"> <img class="nofancybox" src="/img/csdn.png" style="width:20px; height:20px; vertical-align:middle; margin-inline:5px;"/></a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BF%90%E7%BB%B4/">服务器运维</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BF%90%E7%BB%B4/Python%E5%B7%A5%E5%85%B7/">Python工具</a><span class="category-list-count">1</span></li></ul></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/Anaconda/" style="font-size: 15px;">Anaconda</a> <a href="/tags/Linux%E6%9C%8D%E5%8A%A1%E5%99%A8/" style="font-size: 15px;">Linux服务器</a> <a href="/tags/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/" style="font-size: 15px;">环境部署</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/" style="font-size: 15px;">数据科学</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2025/09/24/input_novel/Linux%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2%EF%BC%9AAnaconda%202025%E7%A8%B3%E5%AE%9A%E7%89%88%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE%E5%85%A8%E6%94%BB%E7%95%A5/">Linux服务器环境部署：Anaconda 2025稳定版安装与配置全攻略</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="https://github.com/CozyOct1/hexo_blog" title="博客源码" target="_blank">博客源码</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2025 <a href="/." rel="nofollow">CozyOct1の博客.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="https://unpkg.com/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0"></script><link rel="stylesheet" type="text/css" href="https://unpkg.com/@fancyapps/fancybox/dist/jquery.fancybox.min.css"><link rel="stylesheet" type="text/css" href="/css/search.css?v=1.0.0"><script type="text/javascript" src="/js/search.js?v=1.0.0"></script><script>var search_path = 'search.xml';
+if (search_path.length == 0) {
+  search_path = 'search.xml';
+}
+var path = '/' + search_path;
+searchFunc(path, 'local-search-input', 'local-search-result');
+</script><script type="text/javascript" src="/js/love.js?v=1.0.0"></script><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
