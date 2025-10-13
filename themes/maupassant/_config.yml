@@ -125,51 +125,55 @@ widgets: ## 侧边栏提供七个小部件：搜索、信息、分类、标签�
 info:
   avatar: /img/cozy.png
   discription: CozyOct1
-  outlinkitem:
-    - img: /img/zy.png
-      outlink: https://cozyoct1.github.io/
-      message: 主页
-    - img: /img/zh.png
-      outlink: https://www.zhihu.com/people/CoztOct1
-      message: 知乎
-    - img: /img/js.png
-      outlink: https://www.jianshu.com/u/f4565be42f14
-      message: 简书
-    - img: /img/sf.png
-      outlink: https://segmentfault.com/u/cozyoct1
-      message: 是否
-    - img: /img/bky.png
-      outlink: https://home.cnblogs.com/u/CozyOct1
-      message: 博客园
-    - img: /img/xhs.png
-      outlink: https://www.xiaohongshu.com/user/profile/63d8ce370000000026010b2b
-      message: 小红书
-    - img: /img/xhh.png
-      outlink: https://www.xiaoheihe.cn/app/user/profile/49728534
-      message: 小黑盒
-    - img: /img/csdn.png
-      outlink: https://blog.csdn.net/m0_52962959?spm=1000.2115.3001.5343
-      message: CSDN
-    - img: /img/jj.png
-      outlink: https://juejin.cn/user/3721214711044237
-      message: 稀土掘金
-    - img: /img/txy.png
-      outlink: https://cloud.tencent.com/developer/user/11316865
-      message: 腾讯云
-    - img: /img/aly.png
-      outlink: https://developer.aliyun.com/profile/2uymytnsftpfc
-      message: 阿里云
-    - img: /img/hw.png
-      outlink: https://bbs.huaweicloud.com/community/usersnew/id_1623909070293346
-      message: 华为云
-
-
 
 links:
-  - title: 博客源码
-    url: https://github.com/CozyOct1/hexo_blog
-    src: /img/github.png
-    desc: 博客源码
+- title: 主页
+  url: https://cozyoct1.github.io/  
+  desc: 主页
+
+- title: 知乎
+  url: https://www.zhihu.com/people/CoztOct1  
+  desc: 知乎
+
+- title: 简书
+  url: https://www.jianshu.com/u/f4565be42f14  
+  desc: 简书
+
+- title: 思否
+  url: https://segmentfault.com/u/cozyoct1  
+  desc: 思否
+
+- title: 博客园
+  url: https://home.cnblogs.com/u/CozyOct1  
+  desc: 博客园
+
+- title: 小红书
+  url: https://www.xiaohongshu.com/user/profile/63d8ce370000000026010b2b  
+  desc: 小红书
+
+- title: 小黑盒
+  url: https://www.xiaoheihe.cn/app/user/profile/49728534  
+  desc: 小黑盒
+
+- title: csdn
+  url: https://blog.csdn.net/m0_52962959?spm=1000.2115.3001.5343  
+  desc: csdn
+
+- title: 稀土掘金
+  url: https://juejin.cn/user/3721214711044237  
+  desc: 稀土掘金
+
+- title: 腾讯云社区
+  url: https://cloud.tencent.com/developer/user/11316865  
+  desc: 腾讯云社区
+
+- title: 阿里云社区
+  url: https://developer.aliyun.com/profile/2uymytnsftpfc  
+  desc: 阿里云社区
+
+- title: 华为云社区
+  url: https://bbs.huaweicloud.com/community/usersnew/id_1623909070293346  
+  desc: 华为云社区
 
 timeline:
   - num: 1

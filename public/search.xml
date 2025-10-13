@@ -2,6 +2,33 @@
 <search> 
   
   
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2024/01/15/hello-world/"/>
+      <url>/2024/01/15/hello-world/</url>
+      
+        <content type="html"><![CDATA[<h1 id="欢迎来到我的博客！"><a href="#欢迎来到我的博客！" class="headerlink" title="欢迎来到我的博客！"></a>欢迎来到我的博客！</h1><p>这是我的第一篇博客文章。</p><h2 id="关于这个博客"><a href="#关于这个博客" class="headerlink" title="关于这个博客"></a>关于这个博客</h2><p>这个博客使用 Hexo 静态网站生成器构建，采用了 maupassant 主题。</p><h2 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h2><ul><li><strong>静态网站生成器</strong>: Hexo</li><li><strong>主题</strong>: Maupassant</li><li><strong>部署</strong>: GitHub Pages</li></ul><h2 id="下一步计划"><a href="#下一步计划" class="headerlink" title="下一步计划"></a>下一步计划</h2><ul><li><input disabled type="checkbox"> 写更多技术文章</li><li><input disabled type="checkbox"> 分享项目经验</li><li><input disabled type="checkbox"> 记录学习心得</li></ul><p>感谢你的访问！</p><span id="more"></span><p>这里是文章的详细内容部分…</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
 </search>
