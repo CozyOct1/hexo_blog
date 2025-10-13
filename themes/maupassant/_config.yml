@@ -126,18 +126,43 @@ info:
   avatar: /img/cozy.png
   discription: CozyOct1
   outlinkitem:
-    - img: /img/github.png
-      outlink: https://github.com/CozyOct1
-      message: Github
-    - img: /img/zhihu.png
+    - img: /img/zy.png
+      outlink: https://cozyoct1.github.io/
+      message: 主页
+    - img: /img/zh.png
       outlink: https://www.zhihu.com/people/CoztOct1
-      message: Zhihu
-    - img: /img/juejin.png
-      outlink: https://juejin.cn/user/3721214711044237
-      message: Juejin
+      message: 知乎
+    - img: /img/js.png
+      outlink: https://www.jianshu.com/u/f4565be42f14
+      message: 简书
+    - img: /img/sf.png
+      outlink: https://segmentfault.com/u/cozyoct1
+      message: 是否
+    - img: /img/bky.png
+      outlink: https://home.cnblogs.com/u/CozyOct1
+      message: 博客园
+    - img: /img/xhs.png
+      outlink: https://www.xiaohongshu.com/user/profile/63d8ce370000000026010b2b
+      message: 小红书
+    - img: /img/xhh.png
+      outlink: https://www.xiaoheihe.cn/app/user/profile/49728534
+      message: 小黑盒
     - img: /img/csdn.png
-      outlink: https://blog.csdn.net/m0_52962959
-      message: Csdn
+      outlink: https://blog.csdn.net/m0_52962959?spm=1000.2115.3001.5343
+      message: CSDN
+    - img: /img/jj.png
+      outlink: https://juejin.cn/user/3721214711044237
+      message: 稀土掘金
+    - img: /img/txy.png
+      outlink: https://cloud.tencent.com/developer/user/11316865
+      message: 腾讯云
+    - img: /img/aly.png
+      outlink: https://developer.aliyun.com/profile/2uymytnsftpfc
+      message: 阿里云
+    - img: /img/hw.png
+      outlink: https://bbs.huaweicloud.com/community/usersnew/id_1623909070293346
+      message: 华为云
+
 
 
 links:
