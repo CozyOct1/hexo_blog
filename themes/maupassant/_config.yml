@@ -151,10 +151,6 @@ links:
   url: https://www.xiaohongshu.com/user/profile/63d8ce370000000026010b2b  
   desc: 小红书
 
-- title: 小黑盒
-  url: https://www.xiaoheihe.cn/app/user/profile/49728534  
-  desc: 小黑盒
-
 - title: csdn
   url: https://blog.csdn.net/m0_52962959?spm=1000.2115.3001.5343  
   desc: csdn
@@ -163,17 +159,6 @@ links:
   url: https://juejin.cn/user/3721214711044237  
   desc: 稀土掘金
 
-- title: 腾讯云社区
-  url: https://cloud.tencent.com/developer/user/11316865  
-  desc: 腾讯云社区
-
-- title: 阿里云社区
-  url: https://developer.aliyun.com/profile/2uymytnsftpfc  
-  desc: 阿里云社区
-
-- title: 华为云社区
-  url: https://bbs.huaweicloud.com/community/usersnew/id_1623909070293346  
-  desc: 华为云社区
 
 timeline:
   - num: 1
