@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>⚡️2025-10-18GitHub日榜Top5｜低成本小模型训练框架</title>
+      <link href="/2025/10/17/github_md/%E2%9A%A1%EF%B8%8F2025-10-18GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E4%BD%8E%E6%88%90%E6%9C%AC%E5%B0%8F%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E6%A1%86%E6%9E%B6/"/>
+      <url>/2025/10/17/github_md/%E2%9A%A1%EF%B8%8F2025-10-18GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E4%BD%8E%E6%88%90%E6%9C%AC%E5%B0%8F%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E6%A1%86%E6%9E%B6/</url>
+      
+        <content type="html"><![CDATA[<h2 id="今日项目趋势"><a href="#今日项目趋势" class="headerlink" title="今日项目趋势:"></a><strong>今日项目趋势:</strong></h2><p>今日GitHub热点趋势：开源小型语言模型训练框架MiniMind崛起，Node.js版本管理工具nvm持续领先，多领域开发者路线图资源项目受关注。</p><hr><h2 id="🚀-jingyaogong-minimind"><a href="#🚀-jingyaogong-minimind" class="headerlink" title="🚀 jingyaogong &#x2F;minimind"></a>🚀 <a href="https://github.com/jingyaogong/minimind">jingyaogong &#x2F;minimind</a></h2><blockquote><p>💡 <strong>简介</strong>：MiniMind是一个开源的小型语言模型训练框架，支持使用低成本、简单方式训练Dense和MoE结构模型，包含数据准备、预训练、SFT、LoRA、DPO等训练流程及模型评估、部署功能。</p></blockquote><h3 id="📊-项目概览"><a href="#📊-项目概览" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>353</td></tr><tr><td>⭐ Stars</td><td>29244</td></tr><tr><td>⚒️ Forks</td><td>3391</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势"><a href="#✨-核心优势" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>低成本简单训练小型语言模型</li><li>支持多种模型结构（Dense和MoE）</li><li>全流程训练支持（预训练、SFT、LoRA、DPO）</li><li>多框架部署支持（llama.cpp、vllm、ollama等）</li></ul><hr><h2 id="🚀-nvm-sh-nvm"><a href="#🚀-nvm-sh-nvm" class="headerlink" title="🚀 nvm-sh &#x2F;nvm"></a>🚀 <a href="https://github.com/nvm-sh/nvm">nvm-sh &#x2F;nvm</a></h2><blockquote><p>💡 <strong>简介</strong>：nvm是一个用于在系统上管理多个Node.js版本的工具，允许轻松安装、切换和使用不同版本的Node.js。</p></blockquote><h3 id="📊-项目概览-1"><a href="#📊-项目概览-1" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>423</td></tr><tr><td>⭐ Stars</td><td>88255</td></tr><tr><td>⚒️ Forks</td><td>9458</td></tr><tr><td>💻 Language</td><td>Shell</td></tr></tbody></table><h3 id="✨-核心优势-1"><a href="#✨-核心优势-1" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>多版本Node.js管理，支持安装与切换</li><li>内置<code>.nvmrc</code>文件自动版本匹配</li><li>提供包迁移功能，便于版本升级</li><li>支持自定义镜像加速下载</li></ul><hr><h2 id="🚀-kamranahmedse-developer-roadmap"><a href="#🚀-kamranahmedse-developer-roadmap" class="headerlink" title="🚀 kamranahmedse &#x2F;developer-roadmap"></a>🚀 <a href="https://github.com/kamranahmedse/developer-roadmap">kamranahmedse &#x2F;developer-roadmap</a></h2><blockquote><p>💡 <strong>简介</strong>：roadmap.sh是一个社区驱动的开发者路线图、文章和资源平台，支持交互功能，提供多领域路线图、最佳实践和知识测试问题，可通过GitHub克隆开发和贡献。</p></blockquote><h3 id="📊-项目概览-2"><a href="#📊-项目概览-2" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>181</td></tr><tr><td>⭐ Stars</td><td>341046</td></tr><tr><td>⚒️ Forks</td><td>43144</td></tr><tr><td>💻 Language</td><td>TypeScript</td></tr></tbody></table><h3 id="✨-核心优势-2"><a href="#✨-核心优势-2" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>多领域路线图覆盖全面</li><li>支持交互功能，节点可点击查看详情</li><li>包含最佳实践和问题集辅助学习</li><li>社区驱动，支持贡献和协作</li></ul><hr><h2 id="🚀-dockur-windows"><a href="#🚀-dockur-windows" class="headerlink" title="🚀 dockur &#x2F;windows"></a>🚀 <a href="https://github.com/dockur/windows">dockur &#x2F;windows</a></h2><blockquote><p>💡 <strong>简介</strong>：这是一个可在Docker容器中运行的Windows系统工具，具备ISO下载器、KVM加速和基于Web的查看器功能，支持通过Docker Compose、Docker CLI、Kubernetes等多种方式部署，并可自定义Windows版本、存储位置和磁盘大小。</p></blockquote><h3 id="📊-项目概览-3"><a href="#📊-项目概览-3" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>191</td></tr><tr><td>⭐ Stars</td><td>47520</td></tr><tr><td>⚒️ Forks</td><td>3519</td></tr><tr><td>💻 Language</td><td>Shell</td></tr></tbody></table><h3 id="✨-核心优势-3"><a href="#✨-核心优势-3" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>提供ISO下载器功能</li><li>支持KVM硬件加速</li><li>基于Web的Windows查看器</li><li>多平台部署方式支持</li></ul><hr><h2 id="🚀-HuLaSpark-HuLa"><a href="#🚀-HuLaSpark-HuLa" class="headerlink" title="🚀 HuLaSpark &#x2F;HuLa"></a>🚀 <a href="https://github.com/HuLaSpark/HuLa">HuLaSpark &#x2F;HuLa</a></h2><blockquote><p>💡 <strong>简介</strong>：基于Tauri、Vue 3等技术栈构建的跨平台即时通讯系统，支持Windows&#x2F;macOS&#x2F;Linux&#x2F;iOS&#x2F;Android多平台，已实现用户认证、消息通信等核心功能，AI聊天助手模块开发中。</p></blockquote><h3 id="📊-项目概览-4"><a href="#📊-项目概览-4" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>26</td></tr><tr><td>⭐ Stars</td><td>4008</td></tr><tr><td>⚒️ Forks</td><td>518</td></tr><tr><td>💻 Language</td><td>Vue</td></tr></tbody></table><h3 id="✨-核心优势-4"><a href="#✨-核心优势-4" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>跨平台兼容性强（Windows&#x2F;macOS&#x2F;Linux&#x2F;iOS&#x2F;Android）</li><li>技术栈现代高效（Tauri+Vue3+TypeScript+Rust）</li><li>功能完善成熟（用户认证&#x2F;消息通信&#x2F;社交管理等）</li><li>轻量级性能优（兼顾安全与高效的应用容器）</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Github日榜 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>⚡️2025-10-17GitHub日榜Top5｜Node版本管理神器</title>
       <link href="/2025/10/16/github_md/%E2%9A%A1%EF%B8%8F2025-10-17GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CNode%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E7%A5%9E%E5%99%A8/"/>
       <url>/2025/10/16/github_md/%E2%9A%A1%EF%B8%8F2025-10-17GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CNode%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E7%A5%9E%E5%99%A8/</url>
