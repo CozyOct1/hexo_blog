@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>⚡️2025-10-20GitHub日榜Top5｜Claude开发实战指南</title>
+      <link href="/2025/10/19/github_md/%E2%9A%A1%EF%B8%8F2025-10-20GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CClaude%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97/"/>
+      <url>/2025/10/19/github_md/%E2%9A%A1%EF%B8%8F2025-10-20GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CClaude%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97/</url>
+      
+        <content type="html"><![CDATA[<h2 id="今日项目趋势"><a href="#今日项目趋势" class="headerlink" title="今日项目趋势:"></a><strong>今日项目趋势:</strong></h2><p>AI开发工具与开源模型训练成今日GitHub热点，Anthropic官方Cookbooks、开源Notebook替代品及超轻量级语言模型项目表现突出，聚焦实用开发与低成本模型训练。</p><hr><h2 id="🚀-anthropics-claude-cookbooks"><a href="#🚀-anthropics-claude-cookbooks" class="headerlink" title="🚀 anthropics &#x2F;claude-cookbooks"></a>🚀 <a href="https://github.com/anthropics/claude-cookbooks">anthropics &#x2F;claude-cookbooks</a></h2><blockquote><p>💡 <strong>简介</strong>：Claude Cookbooks提供代码和指南，帮助开发者使用Claude构建项目，包含分类、检索增强生成等能力及工具集成、第三方集成、多模态等多方面内容。</p></blockquote><h3 id="📊-项目概览"><a href="#📊-项目概览" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>331</td></tr><tr><td>⭐ Stars</td><td>22261</td></tr><tr><td>⚒️ Forks</td><td>2339</td></tr><tr><td>💻 Language</td><td>Jupyter Notebook</td></tr></tbody></table><h3 id="✨-核心优势"><a href="#✨-核心优势" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>提供可复制的Claude API使用代码片段</li><li>覆盖分类、检索增强生成等多能力领域</li><li>支持工具集成、第三方数据源和多模态应用</li><li>包含高级技术和实用资源集合</li></ul><hr><h2 id="🚀-lfnovo-open-notebook"><a href="#🚀-lfnovo-open-notebook" class="headerlink" title="🚀 lfnovo &#x2F;open-notebook"></a>🚀 <a href="https://github.com/lfnovo/open-notebook">lfnovo &#x2F;open-notebook</a></h2><blockquote><p>💡 <strong>简介</strong>：Open Notebook是一个开源、注重隐私的Google Notebook LM替代品，支持16+ AI模型提供商，可本地部署，能组织多模态内容并生成专业播客，提供智能搜索和上下文聊天功能。</p></blockquote><h3 id="📊-项目概览-1"><a href="#📊-项目概览-1" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>142</td></tr><tr><td>⭐ Stars</td><td>5731</td></tr><tr><td>⚒️ Forks</td><td>593</td></tr><tr><td>💻 Language</td><td>TypeScript</td></tr></tbody></table><h3 id="✨-核心优势-1"><a href="#✨-核心优势-1" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>控制你的数据，保持研究隐私安全</li><li>支持16+ AI模型提供商，选择灵活</li><li>多模态内容组织，支持多种文件类型</li><li>提供专业播客生成和智能搜索功能</li></ul><hr><h2 id="🚀-jingyaogong-minimind"><a href="#🚀-jingyaogong-minimind" class="headerlink" title="🚀 jingyaogong &#x2F;minimind"></a>🚀 <a href="https://github.com/jingyaogong/minimind">jingyaogong &#x2F;minimind</a></h2><blockquote><p>💡 <strong>简介</strong>：这是一个从0开始构建超轻量级语言模型MiniMind的开源项目，包含Dense+MoE模型结构代码、完整训练流程（预训练、SFT、LoRA、DPO等）及多个极小模型（最小25.8M），支持个人GPU快速训练，同时开源了视觉多模态VLM。</p></blockquote><h3 id="📊-项目概览-2"><a href="#📊-项目概览-2" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>278</td></tr><tr><td>⭐ Stars</td><td>30307</td></tr><tr><td>⚒️ Forks</td><td>3504</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势-2"><a href="#✨-核心优势-2" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>低成本高效训练：3元成本+2小时训练超小模型</li><li>全流程代码开源：含MoE结构、预训练到DPO等算法</li><li>原生PyTorch实现：不依赖第三方抽象接口</li><li>多模态拓展：支持视觉多模态VLM实现</li></ul><hr><h2 id="🚀-atuinsh-desktop"><a href="#🚀-atuinsh-desktop" class="headerlink" title="🚀 atuinsh &#x2F;desktop"></a>🚀 <a href="https://github.com/atuinsh/desktop">atuinsh &#x2F;desktop</a></h2><blockquote><p>💡 <strong>简介</strong>：Atuin Desktop 是一个本地优先的可执行运行手册编辑器，专为真实终端工作流设计，能链接受壳命令、数据库查询和HTTP请求，支持Jinja风格模板和CRDT协作，可从终端历史自动生成并同步分享。</p></blockquote><h3 id="📊-项目概览-3"><a href="#📊-项目概览-3" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>43</td></tr><tr><td>⭐ Stars</td><td>1754</td></tr><tr><td>⚒️ Forks</td><td>46</td></tr><tr><td>💻 Language</td><td>TypeScript</td></tr></tbody></table><h3 id="✨-核心优势-3"><a href="#✨-核心优势-3" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>本地优先可执行运行手册编辑器</li><li>集成终端命令、数据库查询和HTTP请求</li><li>支持Jinja风格动态模板和参数化工作流</li><li>基于CRDT的本地协作与跨设备同步</li></ul><hr><h2 id="🚀-EbookFoundation-free-programming-books"><a href="#🚀-EbookFoundation-free-programming-books" class="headerlink" title="🚀 EbookFoundation &#x2F;free-programming-books"></a>🚀 <a href="https://github.com/EbookFoundation/free-programming-books">EbookFoundation &#x2F;free-programming-books</a></h2><blockquote><p>💡 <strong>简介</strong>：多语言免费学习资源列表是由免费电子书基金会管理的GitHub项目，包含按语言和主题分类的免费书籍、速查表、在线课程、编程资源等多种学习材料，支持多语言贡献与分享。</p></blockquote><h3 id="📊-项目概览-4"><a href="#📊-项目概览-4" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>476</td></tr><tr><td>⭐ Stars</td><td>373511</td></tr><tr><td>⚒️ Forks</td><td>64911</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势-4"><a href="#✨-核心优势-4" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>多语言资源丰富，覆盖全球多种语言</li><li>权威非营利组织管理，资源质量有保障</li><li>分类细致全面，方便不同需求用户查找</li><li>支持社区协作，持续更新维护资源库</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Github日榜 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>⚡️2025-10-19GitHub日榜Top5｜Claude应用开发指南</title>
       <link href="/2025/10/18/github_md/%E2%9A%A1%EF%B8%8F2025-10-19GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CClaude%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/"/>
       <url>/2025/10/18/github_md/%E2%9A%A1%EF%B8%8F2025-10-19GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CClaude%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/</url>
