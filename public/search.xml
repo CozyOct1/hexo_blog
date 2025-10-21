@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>⚡️2025-10-21GitHub日榜Top5｜Claude代码集成指南</title>
+      <link href="/2025/10/20/github_md/%E2%9A%A1%EF%B8%8F2025-10-21GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CClaude%E4%BB%A3%E7%A0%81%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/"/>
+      <url>/2025/10/20/github_md/%E2%9A%A1%EF%B8%8F2025-10-21GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CClaude%E4%BB%A3%E7%A0%81%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/</url>
+      
+        <content type="html"><![CDATA[<h2 id="今日项目趋势"><a href="#今日项目趋势" class="headerlink" title="今日项目趋势:"></a><strong>今日项目趋势:</strong></h2><p>今日GitHub热点趋势：AI工具系统提示与模型集合、多模态AI应用代码库、电子书转有声书工具、通用代理平台及机器人AI模型。</p><hr><h2 id="🚀-anthropics-claude-cookbooks"><a href="#🚀-anthropics-claude-cookbooks" class="headerlink" title="🚀 anthropics &#x2F;claude-cookbooks"></a>🚀 <a href="https://github.com/anthropics/claude-cookbooks">anthropics &#x2F;claude-cookbooks</a></h2><blockquote><p>💡 <strong>简介</strong>：Claude Cookbooks 提供帮助开发者使用 Claude 构建的代码和指南，包含可复制的代码片段，可集成到项目中。</p></blockquote><h3 id="📊-项目概览"><a href="#📊-项目概览" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>1305</td></tr><tr><td>⭐ Stars</td><td>23675</td></tr><tr><td>⚒️ Forks</td><td>2417</td></tr><tr><td>💻 Language</td><td>Jupyter Notebook</td></tr></tbody></table><h3 id="✨-核心优势"><a href="#✨-核心优势" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>提供可直接集成的代码片段</li><li>覆盖多领域使用场景（能力、工具、多模态等）</li><li>支持跨语言适配（主要Python，可改编其他语言）</li><li>社区贡献机制，持续更新扩展资源</li></ul><hr><h2 id="🚀-SagerNet-sing-box"><a href="#🚀-SagerNet-sing-box" class="headerlink" title="🚀 SagerNet &#x2F;sing-box"></a>🚀 <a href="https://github.com/SagerNet/sing-box">SagerNet &#x2F;sing-box</a></h2><blockquote><p>💡 <strong>简介</strong>：sing-box 是一个通用代理平台，由 Warp 赞助，专为多 AI 代理编码打造。</p></blockquote><h3 id="📊-项目概览-1"><a href="#📊-项目概览-1" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>28</td></tr><tr><td>⭐ Stars</td><td>27384</td></tr><tr><td>⚒️ Forks</td><td>3193</td></tr><tr><td>💻 Language</td><td>Go</td></tr></tbody></table><h3 id="✨-核心优势-1"><a href="#✨-核心优势-1" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>专为多AI代理编码打造</li><li>通用代理平台功能强大</li><li>提供完整详细的文档说明</li><li>开源免费且可自由修改</li></ul><hr><h2 id="🚀-DrewThomasson-ebook2audiobook"><a href="#🚀-DrewThomasson-ebook2audiobook" class="headerlink" title="🚀 DrewThomasson &#x2F;ebook2audiobook"></a>🚀 <a href="https://github.com/DrewThomasson/ebook2audiobook">DrewThomasson &#x2F;ebook2audiobook</a></h2><blockquote><p>💡 <strong>简介</strong>：ebook2audiobook是一个将电子书转换为有声书的工具，支持章节划分、元数据提取，可使用XTTSv2、Bark等多种TTS引擎，支持+1110种语言及语音克隆功能，能在本地或远程运行，适合处理非DRM合法电子书。</p></blockquote><h3 id="📊-项目概览-2"><a href="#📊-项目概览-2" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>324</td></tr><tr><td>⭐ Stars</td><td>12555</td></tr><tr><td>⚒️ Forks</td><td>954</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势-2"><a href="#✨-核心优势-2" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>支持多TTS引擎，含XTTSv2、Bark等</li><li>支持+1110种语言，多语言能力强</li><li>提供GUI界面，操作便捷直观</li><li>支持本地&#x2F;远程运行，硬件要求低</li></ul><hr><h2 id="🚀-x1xhlol-system-prompts-and-models-of-ai-tools"><a href="#🚀-x1xhlol-system-prompts-and-models-of-ai-tools" class="headerlink" title="🚀 x1xhlol &#x2F;system-prompts-and-models-of-ai-tools"></a>🚀 <a href="https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools">x1xhlol &#x2F;system-prompts-and-models-of-ai-tools</a></h2><blockquote><p>💡 <strong>简介</strong>：这是一个包含多种AI工具系统提示和模型的集合仓库，提供了v0版本、Manus、Augment Code、Lovable、Devin等多个项目的提示和工具文件，并包含路线图、反馈、联系信息及AI初创公司安全注意事项。</p></blockquote><h3 id="📊-项目概览-3"><a href="#📊-项目概览-3" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>233</td></tr><tr><td>⭐ Stars</td><td>92301</td></tr><tr><td>⚒️ Forks</td><td>25014</td></tr><tr><td>💻 Language</td><td></td></tr></tbody></table><h3 id="✨-核心优势-3"><a href="#✨-核心优势-3" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>包含多类AI工具系统提示和模型</li><li>覆盖主流IDE工具提示集</li><li>开源项目，提供透明访问</li><li>定期更新，保持信息时效性</li></ul><hr><h2 id="🚀-huggingface-lerobot"><a href="#🚀-huggingface-lerobot" class="headerlink" title="🚀 huggingface &#x2F;lerobot"></a>🚀 <a href="https://github.com/huggingface/lerobot">huggingface &#x2F;lerobot</a></h2><blockquote><p>💡 <strong>简介</strong>：LeRobot 是基于 PyTorch 的现实世界机器人 AI 模型、数据集和工具集合，专注模仿学习和强化学习，提供预训练模型、演示数据集和模拟环境以降低入门门槛。</p></blockquote><h3 id="📊-项目概览-4"><a href="#📊-项目概览-4" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>89</td></tr><tr><td>⭐ Stars</td><td>18330</td></tr><tr><td>⚒️ Forks</td><td>2802</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势-4"><a href="#✨-核心优势-4" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>降低机器人领域入门门槛</li><li>提供预训练模型和数据集</li><li>支持现实世界迁移的先进方法</li><li>包含模拟环境快速上手</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Github日榜 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>⚡️2025-10-20GitHub日榜Top5｜Claude开发实战指南</title>
       <link href="/2025/10/19/github_md/%E2%9A%A1%EF%B8%8F2025-10-20GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CClaude%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97/"/>
       <url>/2025/10/19/github_md/%E2%9A%A1%EF%B8%8F2025-10-20GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CClaude%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97/</url>
