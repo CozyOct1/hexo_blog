@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>⚡️2025-10-23GitHub日榜Top5｜离线优先API客户端</title>
+      <link href="/2025/10/22/github_md/%E2%9A%A1%EF%B8%8F2025-10-23GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E7%A6%BB%E7%BA%BF%E4%BC%98%E5%85%88API%E5%AE%A2%E6%88%B7%E7%AB%AF/"/>
+      <url>/2025/10/22/github_md/%E2%9A%A1%EF%B8%8F2025-10-23GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E7%A6%BB%E7%BA%BF%E4%BC%98%E5%85%88API%E5%AE%A2%E6%88%B7%E7%AB%AF/</url>
+      
+        <content type="html"><![CDATA[<h2 id="今日项目趋势"><a href="#今日项目趋势" class="headerlink" title="今日项目趋势:"></a><strong>今日项目趋势:</strong></h2><p>今日GitHub热点趋势：Rust技术栈持续活跃，Tauri+React构建的离线API客户端yaak、Servo浏览器引擎等项目表现突出，AI代理框架Parlant和开源隐私笔记工具Open Notebook成为新热点。</p><hr><h2 id="🚀-mountain-loop-yaak"><a href="#🚀-mountain-loop-yaak" class="headerlink" title="🚀 mountain-loop &#x2F;yaak"></a>🚀 <a href="https://github.com/mountain-loop/yaak">mountain-loop &#x2F;yaak</a></h2><blockquote><p>💡 <strong>简介</strong>：Yaak是一个快速、注重隐私的离线优先API客户端，使用Tauri、Rust和React构建，支持REST、GraphQL、gRPC等多种协议，可导入集合并通过多种方式组织和扩展。</p></blockquote><h3 id="📊-项目概览"><a href="#📊-项目概览" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>1826</td></tr><tr><td>⭐ Stars</td><td>12292</td></tr><tr><td>⚒️ Forks</td><td>436</td></tr><tr><td>💻 Language</td><td>TypeScript</td></tr></tbody></table><h3 id="✨-核心优势"><a href="#✨-核心优势" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>离线优先设计，注重隐私安全</li><li>支持多种API协议，工作灵活</li><li>提供丰富的组织与协作功能</li><li>可扩展的插件系统与自定义选项</li></ul><hr><h2 id="🚀-servo-servo"><a href="#🚀-servo-servo" class="headerlink" title="🚀 servo &#x2F;servo"></a>🚀 <a href="https://github.com/servo/servo">servo &#x2F;servo</a></h2><blockquote><p>💡 <strong>简介</strong>：Servo是用Rust语言编写的原型网页浏览器引擎，支持64位macOS、Linux、Windows、OpenHarmony和Android系统，提供开发文档与构建指南。</p></blockquote><h3 id="📊-项目概览-1"><a href="#📊-项目概览-1" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>375</td></tr><tr><td>⭐ Stars</td><td>32843</td></tr><tr><td>⚒️ Forks</td><td>3302</td></tr><tr><td>💻 Language</td><td>Rust</td></tr></tbody></table><h3 id="✨-核心优势-1"><a href="#✨-核心优势-1" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>使用Rust语言开发的现代浏览器引擎</li><li>支持多平台，包括macOS、Linux、Windows、OpenHarmony和Android</li><li>开放贡献，提供完善的文档和开发指南</li><li>注重并行处理和性能优化的技术架构</li></ul><hr><h2 id="🚀-emcie-co-parlant"><a href="#🚀-emcie-co-parlant" class="headerlink" title="🚀 emcie-co &#x2F;parlant"></a>🚀 <a href="https://github.com/emcie-co/parlant">emcie-co &#x2F;parlant</a></h2><blockquote><p>💡 <strong>简介</strong>：Parlant是一个AI代理框架，通过提供旅程、行为准则、工具使用等功能，确保AI代理行为符合业务需求，可在60秒内运行并生成生产级AI代理。</p></blockquote><h3 id="📊-项目概览-2"><a href="#📊-项目概览-2" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>151</td></tr><tr><td>⭐ Stars</td><td>14287</td></tr><tr><td>⚒️ Forks</td><td>1150</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势-2"><a href="#✨-核心优势-2" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>确保AI代理行为合规可预测</li><li>提供多种自定义工具集成方式</li><li>内置对话旅程和行为准则</li><li>企业级功能与完全可解释性</li></ul><hr><h2 id="🚀-guofei9987-blind-watermark"><a href="#🚀-guofei9987-blind-watermark" class="headerlink" title="🚀 guofei9987 &#x2F;blind_watermark"></a>🚀 <a href="https://github.com/guofei9987/blind_watermark">guofei9987 &#x2F;blind_watermark</a></h2><blockquote><p>💡 <strong>简介</strong>：这是一个基于DWT-DCT-SVD技术的盲水印工具，支持文本和图像水印的嵌入与提取，可抵御旋转、裁剪、缩放等多种图像攻击，提供Python和命令行两种使用方式，并支持并发处理。</p></blockquote><h3 id="📊-项目概览-3"><a href="#📊-项目概览-3" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>342</td></tr><tr><td>⭐ Stars</td><td>8027</td></tr><tr><td>⚒️ Forks</td><td>885</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势-3"><a href="#✨-核心优势-3" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>支持文本和图像水印嵌入提取</li><li>多种攻击测试下水印保持完整</li><li>支持比特数组格式水印嵌入</li><li>提供并发处理功能提升效率</li></ul><hr><h2 id="🚀-lfnovo-open-notebook"><a href="#🚀-lfnovo-open-notebook" class="headerlink" title="🚀 lfnovo &#x2F;open-notebook"></a>🚀 <a href="https://github.com/lfnovo/open-notebook">lfnovo &#x2F;open-notebook</a></h2><blockquote><p>💡 <strong>简介</strong>：Open Notebook 是一个开源、注重隐私的 Google Notebook LM 替代品，支持自托管、多模型选择、多模态内容组织、智能搜索和上下文对话等功能。</p></blockquote><h3 id="📊-项目概览-4"><a href="#📊-项目概览-4" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>587</td></tr><tr><td>⭐ Stars</td><td>7369</td></tr><tr><td>⚒️ Forks</td><td>740</td></tr><tr><td>💻 Language</td><td>TypeScript</td></tr></tbody></table><h3 id="✨-核心优势-4"><a href="#✨-核心优势-4" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>隐私优先，自托管数据安全可控</li><li>支持16+ AI模型提供商，灵活性高</li><li>提供多模态内容组织与智能搜索</li><li>可生成专业播客，支持多发言人配置</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Github日榜 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>⚡️2025-10-22GitHub日榜Top5｜离线优先API客户端</title>
       <link href="/2025/10/21/github_md/%E2%9A%A1%EF%B8%8F2025-10-22GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E7%A6%BB%E7%BA%BF%E4%BC%98%E5%85%88API%E5%AE%A2%E6%88%B7%E7%AB%AF/"/>
       <url>/2025/10/21/github_md/%E2%9A%A1%EF%B8%8F2025-10-22GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E7%A6%BB%E7%BA%BF%E4%BC%98%E5%85%88API%E5%AE%A2%E6%88%B7%E7%AB%AF/</url>
