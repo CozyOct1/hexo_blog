@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>⚡️2025-10-24GitHub日榜Top5｜高性能S3兼容对象存储</title>
+      <link href="/2025/10/23/github_md/%E2%9A%A1%EF%B8%8F2025-10-24GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E9%AB%98%E6%80%A7%E8%83%BDS3%E5%85%BC%E5%AE%B9%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8/"/>
+      <url>/2025/10/23/github_md/%E2%9A%A1%EF%B8%8F2025-10-24GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E9%AB%98%E6%80%A7%E8%83%BDS3%E5%85%BC%E5%AE%B9%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8/</url>
+      
+        <content type="html"><![CDATA[<h2 id="今日项目趋势"><a href="#今日项目趋势" class="headerlink" title="今日项目趋势:"></a><strong>今日项目趋势:</strong></h2><p>今日GitHub热点趋势：离线优先API客户端yaak（Rust+Tauri+React）、盲水印工具blind_watermark（Python）、MinIO对象存储、瓢虫浏览器Ladybird及paperless-ngx文档管理系统成为亮点。</p><hr><h2 id="🚀-minio-minio"><a href="#🚀-minio-minio" class="headerlink" title="🚀 minio &#x2F;minio"></a>🚀 <a href="https://github.com/minio/minio">minio &#x2F;minio</a></h2><blockquote><p>💡 <strong>简介</strong>：MinIO是一个高性能、S3兼容的对象存储解决方案，根据GNU AGPL v3.0许可证发布，支持从源代码、Docker或Helm Charts安装，适用于AI&#x2F;ML、分析和数据密集型工作负载。</p></blockquote><h3 id="📊-项目概览"><a href="#📊-项目概览" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>146</td></tr><tr><td>⭐ Stars</td><td>56655</td></tr><tr><td>⚒️ Forks</td><td>6309</td></tr><tr><td>💻 Language</td><td>Go</td></tr></tbody></table><h3 id="✨-核心优势"><a href="#✨-核心优势" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>S3 API兼容，与现有工具无缝集成</li><li>专为AI和分析设计，优化大规模数据管道</li><li>高性能，适用于要求苛刻的存储工作负载</li><li>开源免费，社区活跃支持</li></ul><hr><h2 id="🚀-guofei9987-blind-watermark"><a href="#🚀-guofei9987-blind-watermark" class="headerlink" title="🚀 guofei9987 &#x2F;blind_watermark"></a>🚀 <a href="https://github.com/guofei9987/blind_watermark">guofei9987 &#x2F;blind_watermark</a></h2><blockquote><p>💡 <strong>简介</strong>：一个基于DWT-DCT-SVD技术的盲水印工具，支持文本和图像水印的嵌入与提取，并能抵抗旋转、裁剪、遮挡等多种攻击。</p></blockquote><h3 id="📊-项目概览-1"><a href="#📊-项目概览-1" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>904</td></tr><tr><td>⭐ Stars</td><td>8879</td></tr><tr><td>⚒️ Forks</td><td>938</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势-1"><a href="#✨-核心优势-1" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>基于DWT-DCT-SVD多算法融合的盲水印技术</li><li>支持文本和图像两种类型水印嵌入</li><li>对多种图像处理攻击具有良好鲁棒性</li><li>提供命令行和Python API两种使用方式</li></ul><hr><h2 id="🚀-mountain-loop-yaak"><a href="#🚀-mountain-loop-yaak" class="headerlink" title="🚀 mountain-loop &#x2F;yaak"></a>🚀 <a href="https://github.com/mountain-loop/yaak">mountain-loop &#x2F;yaak</a></h2><blockquote><p>💡 <strong>简介</strong>：Yaak是一个使用Tauri、Rust和React构建的离线优先API客户端，支持REST、GraphQL、SSE、WebSocket和gRPC，注重隐私且无遥测数据。</p></blockquote><h3 id="📊-项目概览-2"><a href="#📊-项目概览-2" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>1823</td></tr><tr><td>⭐ Stars</td><td>13281</td></tr><tr><td>⚒️ Forks</td><td>461</td></tr><tr><td>💻 Language</td><td>TypeScript</td></tr></tbody></table><h3 id="✨-核心优势-2"><a href="#✨-核心优势-2" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>离线优先设计，保护隐私无遥测</li><li>支持多种API协议，功能全面</li><li>安全存储敏感信息，保障数据安全</li><li>组织结构灵活，支持版本控制</li></ul><hr><h2 id="🚀-LadybirdBrowser-ladybird"><a href="#🚀-LadybirdBrowser-ladybird" class="headerlink" title="🚀 LadybirdBrowser &#x2F;ladybird"></a>🚀 <a href="https://github.com/LadybirdBrowser/ladybird">LadybirdBrowser &#x2F;ladybird</a></h2><blockquote><p>💡 <strong>简介</strong>：瓢虫浏览器是一款基于网络标准引擎、采用多进程架构且适合开发者测试使用的独立网页浏览器，主要核心库继承自SerenityOS。</p></blockquote><h3 id="📊-项目概览-3"><a href="#📊-项目概览-3" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>334</td></tr><tr><td>⭐ Stars</td><td>50460</td></tr><tr><td>⚒️ Forks</td><td>2208</td></tr><tr><td>💻 Language</td><td>C++</td></tr></tbody></table><h3 id="✨-核心优势-3"><a href="#✨-核心优势-3" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>基于网络标准的新型引擎</li><li>多进程架构保障安全性</li><li>组件继承自SerenityOS生态</li><li>跨平台多系统支持能力</li></ul><hr><h2 id="🚀-paperless-ngx-paperless-ngx"><a href="#🚀-paperless-ngx-paperless-ngx" class="headerlink" title="🚀 paperless-ngx &#x2F;paperless-ngx"></a>🚀 <a href="https://github.com/paperless-ngx/paperless-ngx">paperless-ngx &#x2F;paperless-ngx</a></h2><blockquote><p>💡 <strong>简介</strong>：Paperless-ngx 是能将纸质文档转换为可搜索在线档案的文档管理系统，是原始 Paperless 和 Paperless-ng 项目的官方继任者。</p></blockquote><h3 id="📊-项目概览-4"><a href="#📊-项目概览-4" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>39</td></tr><tr><td>⭐ Stars</td><td>33183</td></tr><tr><td>⚒️ Forks</td><td>2068</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势-4"><a href="#✨-核心优势-4" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>开源文档管理系统，纸质转可搜索在线档案</li><li>官方继任者，团队协作推进开发</li><li>支持Docker Compose部署，迁移简便</li><li>多语言支持，社区活跃贡献丰富</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Github日榜 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>⚡️2025-10-23GitHub日榜Top5｜离线优先API客户端</title>
       <link href="/2025/10/22/github_md/%E2%9A%A1%EF%B8%8F2025-10-23GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E7%A6%BB%E7%BA%BF%E4%BC%98%E5%85%88API%E5%AE%A2%E6%88%B7%E7%AB%AF/"/>
       <url>/2025/10/22/github_md/%E2%9A%A1%EF%B8%8F2025-10-23GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E7%A6%BB%E7%BA%BF%E4%BC%98%E5%85%88API%E5%AE%A2%E6%88%B7%E7%AB%AF/</url>
