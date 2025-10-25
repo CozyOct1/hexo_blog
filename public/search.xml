@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>⚡️2025-10-25GitHub日榜Top5｜网页标准引擎浏览器</title>
+      <link href="/2025/10/24/github_md/%E2%9A%A1%EF%B8%8F2025-10-25GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E7%BD%91%E9%A1%B5%E6%A0%87%E5%87%86%E5%BC%95%E6%93%8E%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+      <url>/2025/10/24/github_md/%E2%9A%A1%EF%B8%8F2025-10-25GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E7%BD%91%E9%A1%B5%E6%A0%87%E5%87%86%E5%BC%95%E6%93%8E%E6%B5%8F%E8%A7%88%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<h2 id="今日项目趋势"><a href="#今日项目趋势" class="headerlink" title="今日项目趋势:"></a><strong>今日项目趋势:</strong></h2><p>GitHub今日热点：Ladybird浏览器、盲水印库、Hoppscotch API工具、MinIO对象存储等项目热度显著，技术聚焦于浏览器引擎、多媒体处理、API开发和存储解决方案。</p><hr><h2 id="🚀-LadybirdBrowser-ladybird"><a href="#🚀-LadybirdBrowser-ladybird" class="headerlink" title="🚀 LadybirdBrowser &#x2F;ladybird"></a>🚀 <a href="https://github.com/LadybirdBrowser/ladybird">LadybirdBrowser &#x2F;ladybird</a></h2><blockquote><p>💡 <strong>简介</strong>：瓢虫浏览器是一款基于网页标准新型引擎的独立网页浏览器，采用多进程架构，核心库部分继承自SerenityOS，目前处于预测试阶段，适合开发者使用，支持多平台运行，采用2条款BSD许可证授权。</p></blockquote><h3 id="📊-项目概览"><a href="#📊-项目概览" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>315</td></tr><tr><td>⭐ Stars</td><td>51618</td></tr><tr><td>⚒️ Forks</td><td>2276</td></tr><tr><td>💻 Language</td><td>C++</td></tr></tbody></table><h3 id="✨-核心优势"><a href="#✨-核心优势" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>基于网页标准的新型引擎</li><li>多进程架构增强安全性</li><li>多平台支持（Linux&#x2F;macOS&#x2F;Windows）</li><li>开源且采用2条款BSD许可证</li></ul><hr><h2 id="🚀-guofei9987-blind-watermark"><a href="#🚀-guofei9987-blind-watermark" class="headerlink" title="🚀 guofei9987 &#x2F;blind_watermark"></a>🚀 <a href="https://github.com/guofei9987/blind_watermark">guofei9987 &#x2F;blind_watermark</a></h2><blockquote><p>💡 <strong>简介</strong>：一个基于DWT-DCT-SVD技术的盲水印库，支持向图像嵌入文本或图像水印，并能在图像经过旋转、裁剪、缩放等攻击后提取出水印，提供命令行和Python两种使用方式。</p></blockquote><h3 id="📊-项目概览-1"><a href="#📊-项目概览-1" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>680</td></tr><tr><td>⭐ Stars</td><td>9762</td></tr><tr><td>⚒️ Forks</td><td>1003</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势-1"><a href="#✨-核心优势-1" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>支持文本、图像、位数组三种水印类型</li><li>提供命令行与Python API双重使用方式</li><li>经过多种攻击测试，鲁棒性强</li><li>支持并发处理，提升处理效率</li></ul><hr><h2 id="🚀-hoppscotch-hoppscotch"><a href="#🚀-hoppscotch-hoppscotch" class="headerlink" title="🚀 hoppscotch &#x2F;hoppscotch"></a>🚀 <a href="https://github.com/hoppscotch/hoppscotch">hoppscotch &#x2F;hoppscotch</a></h2><blockquote><p>💡 <strong>简介</strong>：Hoppscotch 是一个开源API开发生态系统，具有轻量、快速、支持多种HTTP方法和协议、可自定义主题、支持PWA、多协议请求、团队协作等特性。</p></blockquote><h3 id="📊-项目概览-2"><a href="#📊-项目概览-2" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>355</td></tr><tr><td>⭐ Stars</td><td>75722</td></tr><tr><td>⚒️ Forks</td><td>5326</td></tr><tr><td>💻 Language</td><td>TypeScript</td></tr></tbody></table><h3 id="✨-核心优势-2"><a href="#✨-核心优势-2" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>轻量级简约UI设计</li><li>支持多种API协议与功能</li><li>全平台PWA应用</li><li>团队协作与数据同步功能</li></ul><hr><h2 id="🚀-zephyrproject-rtos-zephyr"><a href="#🚀-zephyrproject-rtos-zephyr" class="headerlink" title="🚀 zephyrproject-rtos &#x2F;zephyr"></a>🚀 <a href="https://github.com/zephyrproject-rtos/zephyr">zephyrproject-rtos &#x2F;zephyr</a></h2><blockquote><p>💡 <strong>简介</strong>：Zephyr是一个可扩展的实时操作系统（RTOS），支持多种硬件架构，针对资源受限设备优化并考虑安全性，适用于从简单嵌入式设备到复杂物联网网关等多种场景。</p></blockquote><h3 id="📊-项目概览-3"><a href="#📊-项目概览-3" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>17</td></tr><tr><td>⭐ Stars</td><td>13421</td></tr><tr><td>⚒️ Forks</td><td>8111</td></tr><tr><td>💻 Language</td><td>C</td></tr></tbody></table><h3 id="✨-核心优势-3"><a href="#✨-核心优势-3" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>支持多硬件架构，适配广泛设备</li><li>针对资源受限场景优化的小型内核</li><li>兼顾安全性的实时操作系统</li><li>应用场景覆盖从简单设备到复杂网关</li></ul><hr><h2 id="🚀-minio-minio"><a href="#🚀-minio-minio" class="headerlink" title="🚀 minio &#x2F;minio"></a>🚀 <a href="https://github.com/minio/minio">minio &#x2F;minio</a></h2><blockquote><p>💡 <strong>简介</strong>：MinIO 是一个高性能、兼容 S3 的对象存储解决方案，基于 AGPL v3.0 许可证，提供从源码构建、Docker 镜像和 Helm Charts 等多种部署方式，适用于 AI&#x2F;ML、分析和数据密集型工作负载。</p></blockquote><h3 id="📊-项目概览-4"><a href="#📊-项目概览-4" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>1127</td></tr><tr><td>⭐ Stars</td><td>57160</td></tr><tr><td>⚒️ Forks</td><td>6354</td></tr><tr><td>💻 Language</td><td>Go</td></tr></tbody></table><h3 id="✨-核心优势-4"><a href="#✨-核心优势-4" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>兼容 S3 API，与现有工具无缝集成</li><li>高性能，适合高要求存储工作负载</li><li>针对 AI&#x2F;ML、分析等场景优化</li><li>开源免费，社区活跃支持</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Github日榜 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>⚡️2025-10-24GitHub日榜Top5｜高性能S3兼容对象存储</title>
       <link href="/2025/10/23/github_md/%E2%9A%A1%EF%B8%8F2025-10-24GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E9%AB%98%E6%80%A7%E8%83%BDS3%E5%85%BC%E5%AE%B9%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8/"/>
       <url>/2025/10/23/github_md/%E2%9A%A1%EF%B8%8F2025-10-24GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E9%AB%98%E6%80%A7%E8%83%BDS3%E5%85%BC%E5%AE%B9%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8/</url>
