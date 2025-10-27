@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>⚡️2025-10-27GitHub日榜Top5｜多进程安全浏览器</title>
+      <link href="/2025/10/26/github_md/%E2%9A%A1%EF%B8%8F2025-10-27GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E5%A4%9A%E8%BF%9B%E7%A8%8B%E5%AE%89%E5%85%A8%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+      <url>/2025/10/26/github_md/%E2%9A%A1%EF%B8%8F2025-10-27GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E5%A4%9A%E8%BF%9B%E7%A8%8B%E5%AE%89%E5%85%A8%E6%B5%8F%E8%A7%88%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<h2 id="今日项目趋势"><a href="#今日项目趋势" class="headerlink" title="今日项目趋势:"></a><strong>今日项目趋势:</strong></h2><p>AI代理工具及本地部署LLM应用成GitHub热点，Ladybird浏览器和Cursor Free工具也表现突出。</p><hr><h2 id="🚀-LadybirdBrowser-ladybird"><a href="#🚀-LadybirdBrowser-ladybird" class="headerlink" title="🚀 LadybirdBrowser &#x2F;ladybird"></a>🚀 <a href="https://github.com/LadybirdBrowser/ladybird">LadybirdBrowser &#x2F;ladybird</a></h2><blockquote><p>💡 <strong>简介</strong>：瓢虫是一款基于网页标准、采用多进程架构（主UI、WebContent渲染等进程）、核心库继承自SerenityOS的独立网页浏览器，目前处于预测试阶段，仅适合开发者使用，采用2条款BSD许可证授权。</p></blockquote><h3 id="📊-项目概览"><a href="#📊-项目概览" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>1105</td></tr><tr><td>⭐ Stars</td><td>53704</td></tr><tr><td>⚒️ Forks</td><td>2372</td></tr><tr><td>💻 Language</td><td>C++</td></tr></tbody></table><h3 id="✨-核心优势"><a href="#✨-核心优势" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>采用多进程架构，增强安全性</li><li>使用SerenityOS核心库，技术基础扎实</li><li>支持多平台运行（Linux&#x2F;macOS&#x2F;Windows）</li><li>基于网页标准的现代引擎设计</li></ul><hr><h2 id="🚀-yeongpin-cursor-free-vip"><a href="#🚀-yeongpin-cursor-free-vip" class="headerlink" title="🚀 yeongpin &#x2F;cursor-free-vip"></a>🚀 <a href="https://github.com/yeongpin/cursor-free-vip">yeongpin &#x2F;cursor-free-vip</a></h2><blockquote><p>💡 <strong>简介</strong>：Cursor Free VIP是一款支持Windows、macOS和Linux系统的工具，可重置Cursor配置，并提供多语言支持，通过脚本自动化运行，包含详细配置文件和使用注意事项。</p></blockquote><h3 id="📊-项目概览-1"><a href="#📊-项目概览-1" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>611</td></tr><tr><td>⭐ Stars</td><td>37898</td></tr><tr><td>⚒️ Forks</td><td>4641</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势-1"><a href="#✨-核心优势-1" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>支持多操作系统平台</li><li>提供多语言界面</li><li>可自定义配置文件</li><li>自动化脚本便捷安装</li></ul><hr><h2 id="🚀-cjpais-Handy"><a href="#🚀-cjpais-Handy" class="headerlink" title="🚀 cjpais &#x2F;Handy"></a>🚀 <a href="https://github.com/cjpais/Handy">cjpais &#x2F;Handy</a></h2><blockquote><p>💡 <strong>简介</strong>：Handy是一个使用Tauri构建的免费开源跨平台离线语音转文字应用，通过本地Whisper和Parakeet V3模型处理语音，提供隐私保护和快捷键操作功能。</p></blockquote><h3 id="📊-项目概览-2"><a href="#📊-项目概览-2" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>200</td></tr><tr><td>⭐ Stars</td><td>3477</td></tr><tr><td>⚒️ Forks</td><td>213</td></tr><tr><td>💻 Language</td><td>TypeScript</td></tr></tbody></table><h3 id="✨-核心优势-2"><a href="#✨-核心优势-2" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>免费开源，无付费墙</li><li>本地处理，保护隐私安全</li><li>跨平台支持Windows&#x2F;macOS&#x2F;Linux</li><li>支持Whisper和Parakeet V3模型</li></ul><hr><h2 id="🚀-Shubhamsaboo-awesome-llm-apps"><a href="#🚀-Shubhamsaboo-awesome-llm-apps" class="headerlink" title="🚀 Shubhamsaboo &#x2F;awesome-llm-apps"></a>🚀 <a href="https://github.com/Shubhamsaboo/awesome-llm-apps">Shubhamsaboo &#x2F;awesome-llm-apps</a></h2><blockquote><p>💡 <strong>简介</strong>：这是一个包含使用RAG、AI代理、多代理团队、MCP、语音代理等技术构建的LLM应用集合，支持本地运行OpenAI、Anthropic、Google、xAI等公司模型及Qwen或Llama等开源模型。</p></blockquote><h3 id="📊-项目概览-3"><a href="#📊-项目概览-3" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>182</td></tr><tr><td>⭐ Stars</td><td>73205</td></tr><tr><td>⚒️ Forks</td><td>9519</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势-3"><a href="#✨-核心优势-3" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>包含多种LLM技术应用，涵盖RAG等</li><li>支持OpenAI、Anthropic等多厂商模型</li><li>提供本地运行开源模型的能力</li><li>包含丰富多样的AI代理和多代理团队示例</li></ul><hr><h2 id="🚀-microsoft-agent-lightning"><a href="#🚀-microsoft-agent-lightning" class="headerlink" title="🚀 microsoft &#x2F;agent-lightning"></a>🚀 <a href="https://github.com/microsoft/agent-lightning">microsoft &#x2F;agent-lightning</a></h2><blockquote><p>💡 <strong>简介</strong>：Agent Lightning是一个用于训练AI代理的工具，支持零代码修改，可与任何代理框架或无框架环境兼容，能选择性优化多代理系统中的一个或多个代理，并应用强化学习等算法。</p></blockquote><h3 id="📊-项目概览-4"><a href="#📊-项目概览-4" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>186</td></tr><tr><td>⭐ Stars</td><td>2357</td></tr><tr><td>⚒️ Forks</td><td>187</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势-4"><a href="#✨-核心优势-4" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>支持几乎零代码优化AI代理</li><li>兼容多种Agent框架甚至无框架</li><li>可选择性优化多智能体系统</li><li>集成多种强化学习等优化算法</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Github日榜 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>⚡️2025-10-25GitHub日榜Top5｜网页标准引擎浏览器</title>
       <link href="/2025/10/24/github_md/%E2%9A%A1%EF%B8%8F2025-10-25GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E7%BD%91%E9%A1%B5%E6%A0%87%E5%87%86%E5%BC%95%E6%93%8E%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
       <url>/2025/10/24/github_md/%E2%9A%A1%EF%B8%8F2025-10-25GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E7%BD%91%E9%A1%B5%E6%A0%87%E5%87%86%E5%BC%95%E6%93%8E%E6%B5%8F%E8%A7%88%E5%99%A8/</url>
