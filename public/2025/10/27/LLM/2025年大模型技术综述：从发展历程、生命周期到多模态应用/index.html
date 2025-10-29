@@ -1,0 +1,332 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Code is cheap. Show me the prompt."><title>2025年大模型技术综述：从发展历程、生命周期到多模态应用 | CozyOct1‘s Blog</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/pure-min.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="https://unpkg.com/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/img/cozy.png"><link rel="Shortcut Icon" type="image/x-icon" href="/img/cozy.png"><link rel="apple-touch-icon" href="/img/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon.png"><script type="text/javascript" src="https://unpkg.com/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="https://unpkg.com/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="https://unpkg.com/toastr/build/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+var toggle = document.querySelector('.darkmode-toggle');
+var html = document.querySelector('html');
+
+html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
+
+toggle.addEventListener('click', () => {
+localStorage.dark = !(html.dataset.dark == 'true');
+html.dataset.dark = localStorage.dark;
+});</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">2025年大模型技术综述：从发展历程、生命周期到多模态应用</h1><a id="logo" href="/.">CozyOct1‘s Blog</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">2025年大模型技术综述：从发展历程、生命周期到多模态应用</h1><div class="post-meta">2025-10-27<span> | </span><span class="category"><a href="/categories/LLM/">LLM</a></span><script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> 阅读</span></span><span class="post-time"><span class="post-meta-item-text"> | </span><span class="post-meta-item-icon"><i class="fa fa-keyboard-o"></i><span class="post-count"> 4.4k</span><span class="post-meta-item-text"> 字</span></span></span><span class="post-time"> | <span class="post-meta-item-icon"><i class="fa fa-clock-o"></i><span class="post-count"> 17</span><span class="post-meta-item-text"> 分钟</span></span></span></div><div class="post-content"><h1 id="文章引言"><a href="#文章引言" class="headerlink" title="文章引言"></a>文章引言</h1><h2 id="研究背景"><a href="#研究背景" class="headerlink" title="研究背景"></a>研究背景</h2><p>大模型是指通过海量数据训练、参数规模达数十亿至万亿级别的深度学习模型，其核心特征包括庞大参数量、海量训练数据以及预训练与微调相结合的训练范式。从基于Transformer架构的NLP预训练模型起步，大模型已演进到能够协同处理文本、图像、音频等多模态信息的新阶段，正推动人工智能从专用工具向通用智能迈进，成为赋能各行业数字化转型的核心驱动力。</p>
+<h2 id="架构说明"><a href="#架构说明" class="headerlink" title="架构说明"></a>架构说明</h2><p>本文围绕“发展历程—生命周期—模态划分—模型类型”四个核心维度系统梳理大模型技术：首先沿时间轴呈现从萌芽、范式开创、规模竞赛到智能时代的演进脉络；继而剖析数据准备、预训练、对齐安全至应用落地的完整生命周期；随后区分语言、视觉及多模态模型的技术特点；最后从基座模型与垂直行业应用双视角展开分析，最终总结现状并展望未来趋势。</p>
+<h1 id="发展历程"><a href="#发展历程" class="headerlink" title="发展历程"></a>发展历程</h1><h2 id="萌芽时期"><a href="#萌芽时期" class="headerlink" title="萌芽时期"></a>萌芽时期</h2><ul>
+<li><strong>2006年9月</strong>：Geoffrey Hinton等人发表深度信念网络（DBN）论文，重启深度学习热潮，为后续大模型奠定理论基础。</li>
+<li><strong>2009年6月</strong>：ImageNet数据集正式发布，提供百万级标注样本，催生“大数据+大算力”范式。</li>
+<li><strong>2012年10月</strong>：AlexNet在ImageNet竞赛中夺冠，展示GPU训练大规模神经网络的潜力，开启“模型越大、性能越好”的认知。</li>
+<li><strong>2013年1月</strong>：Google发布Word2Vec，首次将词向量扩展到300维，奠定大规模预训练范式雏形。</li>
+<li><strong>2014年1月</strong>：Ian Goodfellow提出GAN，生成式模型迎来新路线，为后续AIGC埋伏笔。</li>
+<li><strong>2015年12月</strong>：微软亚洲研究院发布152层ResNet，首次把深度卷积网络推进到百层以上，验证“深度+大数据”路径。</li>
+<li><strong>2016年11月</strong>：Google Neural Machine Translation（GNMT）上线，首次用8层LSTM端到端训练10^8量级参数系统，为后续“大模型+大语料”提供工程模板。</li>
+</ul>
+<h2 id="架构奠基"><a href="#架构奠基" class="headerlink" title="架构奠基"></a>架构奠基</h2><ul>
+<li><strong>2017年6月</strong>：Google发布《Attention Is All You Need》，提出Transformer架构，完全抛弃循环&#x2F;卷积，奠定现代大模型基础。</li>
+<li><strong>2017年12月</strong>：Transformer官方代码开源，奠定后续Megatron、FairSeq、HuggingFace等生态底座。</li>
+<li><strong>2018年6月</strong>：OpenAI发布GPT-1（1.17亿参数），首次证明“无监督预训练+有监督微调”在语言任务上的通用性。</li>
+<li><strong>2018年10月</strong>：Google发布BERT（3.4亿参数），引入双向编码+掩码语言模型，刷新11项NLP基准，引爆预训练范式。</li>
+<li><strong>2018年11月</strong>：Google发布T5（Text-to-Text Transfer Transformer），统一所有NLP任务为“text-to-text”格式，确立后续大模型任务接口标准。</li>
+</ul>
+<h2 id="规模竞赛"><a href="#规模竞赛" class="headerlink" title="规模竞赛"></a>规模竞赛</h2><ul>
+<li><strong>2019年2月</strong>：OpenAI发布GPT-2（15亿参数），因“生成内容过于逼真”被暂缓开源，首次引发“大模型安全”讨论。</li>
+<li><strong>2019年7月</strong>：英伟达发布Megatron-LM（83亿参数），首次用模型并行训练十亿级Transformer，验证“大算力+大模型”工程路径。</li>
+<li><strong>2020年1月</strong>：Microsoft DeepSpeed开源，ZeRO优化器让千亿级模型训练内存降低一个数量级，奠定“大模型平民化”工程底座。</li>
+<li><strong>2020年5月</strong>：OpenAI发布GPT-3（1750亿参数），在少样本&#x2F;零样本场景展现涌现能力，开启“提示工程”时代。</li>
+<li><strong>2020年7月</strong>：Google发布Switch Transformer（1.6万亿参数），首次将稀疏MoE（混合专家）架构推至万亿规模。</li>
+<li><strong>2021年1月</strong>：OpenAI发布CLIP &amp; DALL·E，首次打通文本-图像跨模态，大模型走出纯文本。</li>
+<li><strong>2021年5月</strong>：华为发布盘古α（2000亿参数），国内首个千亿级中文预训练模型。</li>
+<li><strong>2021年7月</strong>：北京智源研究院发布悟道2.0（1.75万亿参数），全球最大中文多模态大模型，首次把“国画、诗词、蛋白质”统一预训练。</li>
+<li><strong>2021年10月</strong>：微软与英伟达联合推出Megatron-Turing NLG（5300亿参数），刷新语言模型参数纪录。</li>
+<li><strong>2022年4月</strong>：Google发布PaLM（5400亿参数），在数百项任务上验证“规模-性能”对数线性关系。</li>
+<li><strong>2022年9月</strong>：Meta发布Make-A-Video，实现文本到视频生成，大模型向多模态时空生成扩展。</li>
+</ul>
+<h2 id="智能时代"><a href="#智能时代" class="headerlink" title="智能时代"></a>智能时代</h2><ul>
+<li><strong>2022年11月</strong>：OpenAI发布ChatGPT，5天用户破百万，开启“对话式AI”消费级爆发。</li>
+<li><strong>2023年1月</strong>：ChatGPT月活破1亿，成为史上增长最快的消费级应用，引发“AI+搜索”全球竞赛。</li>
+<li><strong>2023年2月</strong>：微软集成ChatGPT到Bing，首次让大模型重塑互联网搜索入口。</li>
+<li><strong>2023年3月</strong>：OpenAI发布GPT-4（支持图文多模态），在律考、SAT等考试超越90%人类，大模型进入“通用智能”讨论。</li>
+<li><strong>2023年3月</strong>：百度发布文心一言，国内首个对标ChatGPT的大模型产品。</li>
+<li><strong>2023年4月</strong>：阿里发布通义千问，开启国内云端大模型API生态。</li>
+<li><strong>2023年5月</strong>：Sam Altman在美国国会听证，提出“AI需要像核设施一样监管”，全球开启大模型合规立法潮。</li>
+<li><strong>2023年6月</strong>：华为发布盘古3.0（1000亿参数行业大模型），聚焦B端制造、气象、药物等场景。</li>
+<li><strong>2023年7月</strong>：Meta免费开源Llama 2（700亿参数），可商用许可证重塑开源大模型格局。</li>
+<li><strong>2023年8月</strong>：中国《生成式AI服务管理暂行办法》正式施行，大模型进入“备案+安全评估”阶段。</li>
+<li><strong>2023年9月</strong>：OpenAI发布DALL·E 3，原生集成至ChatGPT，实现“对话式高精度绘图”。</li>
+<li><strong>2023年10月</strong>：Anthropic发布Claude 2（200K上下文），把安全对齐与长文本同时推进到商用级。</li>
+<li><strong>2023年11月</strong>：OpenAI首届开发者大会发布GPT-4 Turbo与GPTs，开启“个人化、可商用Agent商店”。</li>
+<li><strong>2024年1月</strong>：谷歌发布Gemini 1.0 Ultra，首次在MMLU基准上公开超越GPT-4，多模态原生支持音视频。</li>
+<li><strong>2024年2月</strong>：OpenAI发布Sora，支持60秒1080p文本到视频生成，大模型进入“世界模拟器”阶段。</li>
+<li><strong>2024年3月</strong>：月之暗面（Moonshot AI）发布Kimi Chat，支持200万字长上下文，刷新消费级长文本纪录。</li>
+<li><strong>2024年4月</strong>：微软发布Phi-3-mini（3.8B参数），在iPhone端侧跑通，开启“小参数大能力”端化趋势。</li>
+<li><strong>2024年5月</strong>：Google发布Gemini 1.5 Pro（100万token上下文），多模态长文档理解能力再突破。</li>
+<li><strong>2024年6月</strong>：Meta发布Llama 3.1（4050亿参数），开源领域首个4000亿级稠密模型，性能对标GPT-4。</li>
+<li><strong>2024年7月</strong>：上海AI Lab发布InternVL2-40B，开源最强多模态大模型，在OCR、视频、中文图表等任务霸榜。</li>
+<li><strong>2024年9月</strong>：OpenAI发布o1系列，引入“思维链”强化学习推理范式，在数学、代码、科学问答上显著超越GPT-4。</li>
+<li><strong>2024年10月</strong>：欧盟《AI Act》正式生效，全球首个具有法律约束力的通用AI监管法规落地。</li>
+<li><strong>2024年11月</strong>：DeepSeek发布R1-Lite预览版，轻量推理模型首次公开体验。</li>
+<li><strong>2025年1月10日</strong>：DeepSeek官方移动应用上线。</li>
+<li><strong>2025年1月20日</strong>：DeepSeek开源DeepSeek-R1（671B MoE），以1&#x2F;20成本实现对标OpenAI o1的推理能力，登顶中美App Store免费榜。</li>
+<li><strong>2025年1月29日</strong>：阿里云通义千问发布Qwen2.5-Max，预训练数据超20万亿tokens，位列全球第七、非推理类中国模型第一。</li>
+<li><strong>2025年2月3日</strong>：国家超算互联网平台上线DeepSeek-R1&#x2F;V3，三大运营商同步接入，提供百万tokens仅6元的普惠API。</li>
+<li><strong>2025年3月15日</strong>：百度文心4.5-Turbo发布，首次支持512 k上下文与多图一键PPT生成，主攻办公场景。</li>
+<li><strong>2025年3月22日</strong>：腾讯混元3D世界模型1.0开源，业界首个可沉浸漫游、可交互、可仿真的3D世界生成基座模型。</li>
+<li><strong>2025年4月18日</strong>：阶跃星辰开源Step-3（MoE-1.8T），国产芯片32 k推理速度达DeepSeek R1的300%，主打“轻量视觉路径”。</li>
+<li><strong>2025年5月1日</strong>：华为盘古σ-Weather上线，率先在台风路径48 h预报中将误差缩小至35 km，中央气象局正式商用。</li>
+<li><strong>2025年5月20日</strong>：荣耀开源MagicGUI-7B多模态感知模型，支撑手机端AI Agent自动执行，与高通8 Gen 4深度耦合。</li>
+<li><strong>2025年6月8日</strong>：科大讯飞星火X1升级版上线，全国产算力训练，医疗诊断辅助准确率在三甲医院试点超95%。</li>
+<li><strong>2025年7月15日</strong>：谷歌云Gemini 2.0 Turbo向企业开放微调接口，支持金融、法律专有数据集深度定制。</li>
+<li><strong>2025年7月25日</strong>：市场消息：OpenAI计划8月初发布GPT-5（pro&#x2F;mini&#x2F;nano三版本），同时释出类似o3-mini的开放权重模型。</li>
+<li><strong>2025年8月1日</strong>：OpenAI正式推出GPT-5系列，夺回LMSYS总榜第一；pro版整合o系列推理，mini&#x2F;nano主攻端侧与API。</li>
+<li><strong>2025年8月21日</strong>：DeepSeek发布V3.1，采用“混合推理架构”，支持国产昇腾&#x2F;H100，推理成本再降30%，开启AI大模型“架构竞赛”。</li>
+<li><strong>2025年9月5日</strong>：蚂蚁集团开源扩散语言模型推理框架dInfer，推理速度提升3×，助力国产芯片生态。</li>
+<li><strong>2025年9月12日</strong>：Anthropic发布Claude Sonnet 4.5与Haiku 4.5，新增上下文编辑与内存工具，编码性能冲至SWE-bench 74.5%。</li>
+<li><strong>2025年9月20日</strong>：上海AI Lab开源InternVL2-40B，OCR、视频、中文图表任务霸榜，成为最强开源多模态基座。</li>
+<li><strong>2025年10月12日</strong>：字节跳动发布万亿参数多模态大模型“云雀-Ω”，支持视频-文本-3D实时生成，首批落地零售虚拟货架。</li>
+<li><strong>2025年10月13日</strong>：阿里巴巴发布Qwen3-Max（万亿参数闭源）与Qwen3-Omni（开源实时交互），同步开放金融&#x2F;教育&#x2F;医疗行业方案。</li>
+<li><strong>2025年10月16日</strong>：中国移动“九天医疗大模型2.0”发布，支持800+疾病辅助诊断，已在上海多家三甲医院试点。</li>
+<li><strong>2025年10月19日</strong>：国内“模型峰会”——蚂蚁Ling-1T、讯飞星火4.0 Turbo、阿里Qwen3-VL-Flash、百度多语言OCR、字节视频生成同日亮相。</li>
+<li><strong>2025年10月25日</strong>：远景科技发布全球首款“AI风储一体机”；首驱科技推出AI电动两轮车，无感解锁+开放API，AI深入能源与出行。</li>
+</ul>
+<h1 id="生命周期"><a href="#生命周期" class="headerlink" title="生命周期"></a>生命周期</h1><h2 id="数据准备"><a href="#数据准备" class="headerlink" title="数据准备"></a>数据准备</h2><ul>
+<li><strong>数据合成与增强</strong>  <ul>
+<li>前沿：基于LLM的“合成→验证→再训练”闭环（如Microsoft Copilot数据飞轮）  </li>
+<li>技术：Self-Instruct、Evol-Instruct、Backtranslation，支持多模态图文对自动生成</li>
+</ul>
+</li>
+<li><strong>数据治理与去毒</strong>  <ul>
+<li>前沿：D4Data框架——用Diffusion检测并擦除隐私&#x2F;版权像素，NLP侧用RLHF过滤有毒文本  </li>
+<li>技术：Lineage追踪 + 差分隐私，满足GDPR&#x2F;CCPA合规</li>
+</ul>
+</li>
+<li><strong>多模态统一表示</strong>  <ul>
+<li>前沿：LAION-5B→LAION-2B-en-mined，CLIP-Filter V3，实现图文对齐质量≥95 %  </li>
+<li>技术：Sentence-Transformers + Vision-Transformer 联合Embedding，支持128语言</li>
+</ul>
+</li>
+</ul>
+<h2 id="模型预训"><a href="#模型预训" class="headerlink" title="模型预训"></a>模型预训</h2><ul>
+<li><strong>MoE稀疏化</strong>  <ul>
+<li>前沿：Google PaLM 2-540B，Top-2 Routing + Expert Choice，激活参数量仅8 %  </li>
+<li>技术：ST-MoE、MegaBlocks（GPU kernel级优化），训练成本↓37 %</li>
+</ul>
+</li>
+<li><strong>Retrieval-Augmented Pre-training</strong>  <ul>
+<li>前沿：Retro++、RALLM，在预训练阶段即引入20 M外部知识切片  </li>
+<li>技术：KNN-Transformer + Continual-IndexRebuild，实现“事实可更新”</li>
+</ul>
+</li>
+<li><strong>序列长度外推</strong>  <ul>
+<li>前沿：LongNet-1B-token（Microsoft）， dilated attention，复杂度O(n·log n)  </li>
+<li>技术：FlashAttention-2 + ALiBi→xPos，单卡A100支持2 M token</li>
+</ul>
+</li>
+</ul>
+<h2 id="微调适配"><a href="#微调适配" class="headerlink" title="微调适配"></a>微调适配</h2><ul>
+<li><strong>参数高效微调（PEFT）</strong>  <ul>
+<li>前沿：QLoRA（4-bit量化+LoRA），65B模型在单卡48 GB完成微调；  </li>
+<li>技术：LoRA-GA（Gradient Approximation）初始化，下游任务平均↑1.8 %</li>
+</ul>
+</li>
+<li><strong>Instruction Tuning规模化</strong>  <ul>
+<li>前沿：TÜLU 3-1100任务混合，Llama-2-70B↑13 %优于GPT-3.5-turbo  </li>
+<li>技术：Chain-of-Thought + Flan-Muffin数据配比自动搜索</li>
+</ul>
+</li>
+<li><strong>多模态指令微调</strong>  <ul>
+<li>前沿：LLaVA-1.5-34B，图文交错指令120万，MMBench↑7 %  </li>
+<li>技术：Vision-Token Sampling + 位置插值，支持任意分辨率输入</li>
+</ul>
+</li>
+</ul>
+<h2 id="对齐安全"><a href="#对齐安全" class="headerlink" title="对齐安全"></a>对齐安全</h2><ul>
+<li><strong>RLHF规模化</strong>  <ul>
+<li>前沿：Anthropic Constitutional AI-52B，自监督规则+AI反馈，人工标注↓90 %  </li>
+<li>技术：RRHF（Rank Response）、DPO（Direct Preference Optimization）</li>
+</ul>
+</li>
+<li><strong>红队对抗与防御</strong>  <ul>
+<li>前沿：HarmBench + DecodingTrust，自动化生成5 k+有害提示，覆盖Prompt-Injection、Jailbreak  </li>
+<li>技术：Self-Refine + Safety-Filter Router，拒绝率↑28 %</li>
+</ul>
+</li>
+<li><strong>可解释对齐</strong>  <ul>
+<li>前沿：OpenAI GPT-4-1106 system card，使用稀疏自编码器（SAE）定位“说谎”神经元  </li>
+<li>技术：Activation Patching + Causal Mediation，实现概念级干预</li>
+</ul>
+</li>
+</ul>
+<h2 id="压缩部署"><a href="#压缩部署" class="headerlink" title="压缩部署"></a>压缩部署</h2><ul>
+<li><strong>量化</strong>  <ul>
+<li>前沿：SmoothQuant-α（W8A8）、KVQuant-4bit，LLaMA-70B精度损失&lt;0.3 %  </li>
+<li>技术：LLM.int8()混合精度、Zero-Quant-V2，首token延迟↓42 %</li>
+</ul>
+</li>
+<li><strong>剪枝+蒸馏</strong>  <ul>
+<li>前沿：SliceGPT-30B，结构化剪枝50 %，下游任务↑1.1 %；  </li>
+<li>技术：SparseGPT一次性剪枝，支持N:M 2:4稀疏</li>
+</ul>
+</li>
+<li><strong>边缘侧框架</strong>  <ul>
+<li>前沿：MLC-LLM、Llama.cpp，4-bit量化Llama-7B在iPhone 15 Pro跑通8 tok&#x2F;s  </li>
+<li>技术：ARM NEON + Metal kernel融合，内存占用&lt;4 GB</li>
+</ul>
+</li>
+</ul>
+<h2 id="推理优化"><a href="#推理优化" class="headerlink" title="推理优化"></a>推理优化</h2><ul>
+<li><strong>分布式推理</strong>  <ul>
+<li>前沿：NVIDIA TensorRT-LLM + FP8，GPT-175B单DGX-H100节点吞吐↑5×  </li>
+<li>技术：Continuous Batching + PagedAttention，最大并发↑20×</li>
+</ul>
+</li>
+<li><strong>投机解码</strong>  <ul>
+<li>前沿：Google Medusa、Meta SpecInfer，2-3倍加速；  </li>
+<li>技术：Draft-Model为原模型1&#x2F;10，基于RNN-LM的Tree-Attention验证</li>
+</ul>
+</li>
+<li><strong>边缘-云协同</strong>  <ul>
+<li>前沿：Split-LLM，将Attention层卸载至云端，FFN层留在边缘，带宽↓70 %  </li>
+<li>技术：Sliding-Window + KV-Cache增量同步，端到端延迟&lt;300 ms</li>
+</ul>
+</li>
+</ul>
+<h2 id="应用落地"><a href="#应用落地" class="headerlink" title="应用落地"></a>应用落地</h2><ul>
+<li><strong>AI Agent生态</strong>  <ul>
+<li>前沿：AutoGPT-4 + LangChain-0.1，多工具调用（浏览器、Python、API）  </li>
+<li>技术：ReAct + Self-Reflection，任务完成率↑至68 %</li>
+</ul>
+</li>
+<li><strong>垂直行业大模型</strong>  <ul>
+<li>医疗：Med-PaLM 2，美国USMLE≥86 %及格线；  </li>
+<li>法律：Harvey-Llama-65B，合同审查准确率92 %；  </li>
+<li>制造：Bosch Industrial-LLM，设备故障预测F1↑11 %</li>
+</ul>
+</li>
+<li><strong>多模态创作</strong>  <ul>
+<li>前沿：Stable Diffusion XL + LLM Storyboard，一键生成15 s短视频；  </li>
+<li>技术：LLM-driven Prompt Refiner + Style-Lora，支持4 K@60 fps</li>
+</ul>
+</li>
+</ul>
+<h2 id="评测监控"><a href="#评测监控" class="headerlink" title="评测监控"></a>评测监控</h2><ul>
+<li><strong>通用基准</strong>  <ul>
+<li>MMLU-Pro、CMMLU、TruthfulQA v2，覆盖STEM&#x2F;人文&#x2F;安全</li>
+</ul>
+</li>
+<li><strong>能力细粒度</strong>  <ul>
+<li>HELM-2：114场景、6大指标（准确性、鲁棒性、公平性、效率、毒性、不确定性）</li>
+</ul>
+</li>
+<li><strong>动态红队监控</strong>  <ul>
+<li>前沿：Constitutional-Loop，每日自动更新1 k+新攻击模板  </li>
+<li>技术：LLM-as-a-Judge + Elo-MMR，实现24×7在线安全仪表盘</li>
+</ul>
+</li>
+<li><strong>生产级可观测</strong>  <ul>
+<li>前沿：OpenLLMetry，Prometheus + Grafana，Token级P99延迟、成本、碳排  </li>
+<li>技术：Span-Level Tracing，支持LangChain&#x2F;LlamaIndex零代码接入</li>
+</ul>
+</li>
+</ul>
+<h1 id="大模型不同模态技术路线与研究现状"><a href="#大模型不同模态技术路线与研究现状" class="headerlink" title="大模型不同模态技术路线与研究现状"></a>大模型不同模态技术路线与研究现状</h1><h2 id="模态划分"><a href="#模态划分" class="headerlink" title="模态划分"></a>模态划分</h2><h3 id="语言模型"><a href="#语言模型" class="headerlink" title="语言模型"></a>语言模型</h3><ul>
+<li><p><strong>技术路线</strong>  </p>
+<ul>
+<li><strong>GPT 模式</strong>：自回归生成，Decoder-Only，以“Next-Token Prediction”为核心，适合开放端生成、少样本&#x2F;零样本场景。  </li>
+<li><strong>BERT 模式</strong>：双向编码，Encoder-Only，以 MLM（掩码语言模型）为目标，擅长理解类、分类与抽取任务。  </li>
+<li><strong>T5&#x2F;Encoder-Decoder 模式</strong>：统一“Text-to-Text”框架，兼顾理解与生成，中等规模下在垂直领域微调效果稳定。</li>
+</ul>
+</li>
+<li><p><strong>研究现状</strong>  </p>
+<ul>
+<li>百亿级以上参数几乎全部采用 GPT 路线，强调规模化、无监督预训练 + 人类反馈强化学习（RLHF）。  </li>
+<li>2023-2025 年焦点：  <ol>
+<li>超长上下文（&gt;2M tokens）  </li>
+<li>工具调用&#x2F;插件闭环  </li>
+<li>低能耗推理（量化、MoE、投机解码）  </li>
+<li>领域适配（继续预训练 + 指令微调）。</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><p><strong>顶级模型</strong>  </p>
+<ul>
+<li><strong>闭源</strong>：OpenAI GPT-4o、Google Gemini-1.5-Pro、Anthropic Claude-3.5-Sonnet、Microsoft Copilot-GPT。  </li>
+<li><strong>开源</strong>：Meta Llama-3.1-405B、Mistral-8×22B、Qwen2.5-72B、DeepSeek-67B-MoE。</li>
+</ul>
+</li>
+</ul>
+<h3 id="视觉模型"><a href="#视觉模型" class="headerlink" title="视觉模型"></a>视觉模型</h3><ul>
+<li><p><strong>技术路线</strong>  </p>
+<ul>
+<li><strong>CNN → Transformer</strong>：ViT 将图像切块做纯 Transformer 建模，后续 Swin、ConvNeXt 引入局部归纳偏置。  </li>
+<li><strong>自监督预训练</strong>：MAE、BEiT、iBOT 通过掩码重建学习通用表征；DINOv2 无需标签即可提取稠密特征。  </li>
+<li><strong>扩散&#x2F;生成模型</strong>：LDM&#x2F;Stable Diffusion 系列把生成任务映射到隐空间，实现高分辨率文生图、图生图。</li>
+</ul>
+</li>
+<li><p><strong>研究现状</strong>  </p>
+<ul>
+<li>2024-2025 年重点：  <ol>
+<li>统一视觉任务（分割、检测、深度、姿态）的“Vision-Language” backbone  </li>
+<li>任意分辨率&#x2F;长边输入  </li>
+<li>视频时空建模（ViViT、InternVideo、Sora-like DiT）  </li>
+<li>3D 生成（3D-VAE、Gaussian Splatting）。</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><p><strong>顶级模型</strong>  </p>
+<ul>
+<li><strong>通用视觉</strong>：ViT-G&#x2F;22B、Swin-v2-G、InternImage-H  </li>
+<li><strong>自监督</strong>：DINOv2-giant、MAE-H  </li>
+<li><strong>生成</strong>：Stable Diffusion XL、SD3-Ultra、Google Imagen-2、OpenAI DALL·E-3、Sora（视频）</li>
+</ul>
+</li>
+</ul>
+<h3 id="多模态模型"><a href="#多模态模型" class="headerlink" title="多模态模型"></a>多模态模型</h3><ul>
+<li><p><strong>技术路线</strong>  </p>
+<ol>
+<li><strong>LLM+VFM 拼接</strong>：语言模型负责推理，视觉基础模型输出特征或掩码，模块化易落地但存在跨模态断层。  </li>
+<li><strong>VLM 对齐融合</strong>：图文双塔 → 对比学习 → 联合 Transformer，实现图文互检、视觉问答。  </li>
+<li><strong>VLA 端到端</strong>：在 VLM 基础上新增动作 token，直接输出机器人&#x2F;车辆控制，形成“感知-推理-行为”闭环。  </li>
+<li><strong>全模态大模型</strong>：视觉-语言-语音-触觉-3D 统一表征，以任意模态为输入&#x2F;输出，迈向“通用世界模型”。</li>
+</ol>
+</li>
+<li><p><strong>研究现状</strong>  </p>
+<ul>
+<li>2023-2025 关键突破：  <ul>
+<li>视觉指令微调（LLaVA、MiniGPT-4）  </li>
+<li>任意分辨率动态切图（InternLM-XComposer-2.5、Qwen-VL-Chat）  </li>
+<li>视频对话与长时序记忆（Video-ChatGPT、LongVA）  </li>
+<li>具身智能 VLA 零样本泛化（RT-2、RT-H、GR00T N1、Gemini Robotics）  </li>
+<li>多模态 MoE、LoRA&#x2F;QLoRA 低成本微调。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>顶级模型</strong>  </p>
+<ul>
+<li><strong>通用多模态</strong>：GPT-4V&#x2F;GPT-4o、Gemini-1.5-Pro、Claude-3-Opus、Qwen2.5-VL-72B、InternVL2-108B  </li>
+<li><strong>开源 VLM</strong>：LLaVA-1.6-34B、MiniCPM-V-2.6、BakLLaVA-1.5、CogVLM-17B  </li>
+<li><strong>VLA&#x2F;具身</strong>：Google RT-2-H、PaLM-E-562B、NVIDIA GR00T N1、Octo、Gemini Robotics  </li>
+<li><strong>全模态探索</strong>：MIT&#x2F;IBM MultiPLY、Meta ImageBind、Microsoft i-Code V3</li>
+</ul>
+</li>
+</ul>
+<h1 id="模型类型"><a href="#模型类型" class="headerlink" title="模型类型"></a>模型类型</h1><h2 id="基座模型"><a href="#基座模型" class="headerlink" title="基座模型"></a>基座模型</h2><p>（以公司分类，介绍国内和国外的基座大模型）</p>
+<h3 id="国内模型"><a href="#国内模型" class="headerlink" title="国内模型"></a>国内模型</h3><h3 id="国外模型"><a href="#国外模型" class="headerlink" title="国外模型"></a>国外模型</h3><h2 id="垂直模型"><a href="#垂直模型" class="headerlink" title="垂直模型"></a>垂直模型</h2><p>（以领域分类，介绍垂直行业的大模型）</p>
+<h1 id="总结展望"><a href="#总结展望" class="headerlink" title="总结展望"></a>总结展望</h1><h2 id="技术总结"><a href="#技术总结" class="headerlink" title="技术总结"></a>技术总结</h2><p>（总结文章内容）</p>
+<h2 id="未来展望"><a href="#未来展望" class="headerlink" title="未来展望"></a>未来展望</h2><p>（展望未来大模型技术发展）</p>
+</div><script type="text/javascript" src="/js/share.js?v=1.0.0" async></script><a class="article-share-link" data-url="https://github.com/CozyOct1/CozyOct1.github.io/2025/10/27/LLM/2025%E5%B9%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%8A%80%E6%9C%AF%E7%BB%BC%E8%BF%B0%EF%BC%9A%E4%BB%8E%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B%E3%80%81%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%88%B0%E5%A4%9A%E6%A8%A1%E6%80%81%E5%BA%94%E7%94%A8/" data-id="cmhbj0w9t0001zl5b94zd49tz" data-qrcode="data:image/png;base64,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">分享</a><div class="tags"><ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/LLM/" rel="tag">LLM</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%BB%BC%E8%BF%B0/" rel="tag">综述</a></li></ul></div><div class="post-nav"><a class="pre" href="/2025/10/28/github_md/%E2%9A%A1%EF%B8%8F2025-10-29GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E6%9C%AC%E5%9C%B0%E4%BC%98%E5%85%88AI%E5%8D%8F%E4%BD%9C%E7%94%BB%E5%B8%83/">⚡️2025-10-29GitHub日榜Top5｜本地优先AI协作画布</a><a class="next" href="/2025/10/27/github_md/%E2%9A%A1%EF%B8%8F2025-10-28GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E5%BC%80%E6%BA%90AFFiNE%E8%B6%85%E8%9E%8D%E5%90%88%E5%B9%B3%E5%8F%B0/">⚡️2025-10-28GitHub日榜Top5｜开源AFFiNE超融合平台</a></div><div id="container"></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/gitalk/dist/gitalk.css"><script type="text/javascript" src="https://unpkg.com/blueimp-md5/js/md5.js"></script><script type="text/javascript" src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script><script>var gitalk = new Gitalk({
+  clientID: 'Ov23ligeuMpXKe7qkcyz',
+  clientSecret: '59fe16272e6ee77e6ad207e3db0fd846fcb6c809',
+  repo: 'CozyOct1.github.io',
+  owner: 'CozyOct1',
+  admin: ['CozyOct1'],
+  id: md5(location.pathname),
+  distractionFreeMode: false
+})
+gitalk.render('container')
+</script></div></div></div><div class="pure-u-1 pure-u-md-1-4"><div id="sidebar"><div class="widget"><div class="search-form"><input id="local-search-input" placeholder="Search" type="text" name="q" results="0"/><div id="local-search-result"></div></div></div><div class="widget"><div class="author-info"><a class="info-avatar" href="/about/" title="关于"><img class="nofancybox" src="/img/cozy.png"/></a><p>CozyOct1</p></div></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Github%E6%97%A5%E6%A6%9C/">Github日榜</a><span class="category-list-count">15</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/LLM/">LLM</a><span class="category-list-count">1</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/Github/" style="font-size: 15px;">Github</a> <a href="/tags/LLM/" style="font-size: 15px;">LLM</a> <a href="/tags/%E7%BB%BC%E8%BF%B0/" style="font-size: 15px;">综述</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2025/10/28/github_md/%E2%9A%A1%EF%B8%8F2025-10-29GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E6%9C%AC%E5%9C%B0%E4%BC%98%E5%85%88AI%E5%8D%8F%E4%BD%9C%E7%94%BB%E5%B8%83/">⚡️2025-10-29GitHub日榜Top5｜本地优先AI协作画布</a></li><li class="post-list-item"><a class="post-list-link" href="/2025/10/27/LLM/2025%E5%B9%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%8A%80%E6%9C%AF%E7%BB%BC%E8%BF%B0%EF%BC%9A%E4%BB%8E%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B%E3%80%81%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%88%B0%E5%A4%9A%E6%A8%A1%E6%80%81%E5%BA%94%E7%94%A8/">2025年大模型技术综述：从发展历程、生命周期到多模态应用</a></li><li class="post-list-item"><a class="post-list-link" href="/2025/10/27/github_md/%E2%9A%A1%EF%B8%8F2025-10-28GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E5%BC%80%E6%BA%90AFFiNE%E8%B6%85%E8%9E%8D%E5%90%88%E5%B9%B3%E5%8F%B0/">⚡️2025-10-28GitHub日榜Top5｜开源AFFiNE超融合平台</a></li><li class="post-list-item"><a class="post-list-link" href="/2025/10/26/github_md/%E2%9A%A1%EF%B8%8F2025-10-27GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E5%A4%9A%E8%BF%9B%E7%A8%8B%E5%AE%89%E5%85%A8%E6%B5%8F%E8%A7%88%E5%99%A8/">⚡️2025-10-27GitHub日榜Top5｜多进程安全浏览器</a></li><li class="post-list-item"><a class="post-list-link" href="/2025/10/25/github_md/%E2%9A%A1%EF%B8%8F2025-10-26GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E7%BD%91%E9%A1%B5%E6%A0%87%E5%87%86%E5%BC%95%E6%93%8E%E6%B5%8F%E8%A7%88%E5%99%A8/">⚡️2025-10-26GitHub日榜Top5｜网页标准引擎浏览器</a></li><li class="post-list-item"><a class="post-list-link" href="/2025/10/24/github_md/%E2%9A%A1%EF%B8%8F2025-10-25GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E7%BD%91%E9%A1%B5%E6%A0%87%E5%87%86%E5%BC%95%E6%93%8E%E6%B5%8F%E8%A7%88%E5%99%A8/">⚡️2025-10-25GitHub日榜Top5｜网页标准引擎浏览器</a></li><li class="post-list-item"><a class="post-list-link" href="/2025/10/23/github_md/%E2%9A%A1%EF%B8%8F2025-10-24GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E9%AB%98%E6%80%A7%E8%83%BDS3%E5%85%BC%E5%AE%B9%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8/">⚡️2025-10-24GitHub日榜Top5｜高性能S3兼容对象存储</a></li><li class="post-list-item"><a class="post-list-link" href="/2025/10/22/github_md/%E2%9A%A1%EF%B8%8F2025-10-23GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E7%A6%BB%E7%BA%BF%E4%BC%98%E5%85%88API%E5%AE%A2%E6%88%B7%E7%AB%AF/">⚡️2025-10-23GitHub日榜Top5｜离线优先API客户端</a></li><li class="post-list-item"><a class="post-list-link" href="/2025/10/21/github_md/%E2%9A%A1%EF%B8%8F2025-10-22GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E7%A6%BB%E7%BA%BF%E4%BC%98%E5%85%88API%E5%AE%A2%E6%88%B7%E7%AB%AF/">⚡️2025-10-22GitHub日榜Top5｜离线优先API客户端</a></li><li class="post-list-item"><a class="post-list-link" href="/2025/10/20/github_md/%E2%9A%A1%EF%B8%8F2025-10-21GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CClaude%E4%BB%A3%E7%A0%81%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/">⚡️2025-10-21GitHub日榜Top5｜Claude代码集成指南</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="https://cozyoct1.github.io/" title="主页" target="_blank">主页</a><ul></ul><a href="https://www.zhihu.com/people/CoztOct1" title="知乎" target="_blank">知乎</a><ul></ul><a href="https://www.jianshu.com/u/f4565be42f14" title="简书" target="_blank">简书</a><ul></ul><a href="https://segmentfault.com/u/cozyoct1" title="思否" target="_blank">思否</a><ul></ul><a href="https://www.cnblogs.com/CozyOct1" title="博客园" target="_blank">博客园</a><ul></ul><a href="https://www.xiaohongshu.com/user/profile/63d8ce370000000026010b2b" title="小红书" target="_blank">小红书</a><ul></ul><a href="https://blog.csdn.net/m0_52962959?spm=1000.2115.3001.5343" title="csdn" target="_blank">csdn</a><ul></ul><a href="https://juejin.cn/user/3721214711044237" title="稀土掘金" target="_blank">稀土掘金</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2025 <a href="/." rel="nofollow">CozyOct1‘s Blog.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="https://unpkg.com/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0"></script><link rel="stylesheet" type="text/css" href="https://unpkg.com/@fancyapps/fancybox/dist/jquery.fancybox.min.css"><link rel="stylesheet" type="text/css" href="/css/search.css?v=1.0.0"><script type="text/javascript" src="/js/search.js?v=1.0.0"></script><script>var search_path = 'search.xml';
+if (search_path.length == 0) {
+  search_path = 'search.xml';
+}
+var path = '/' + search_path;
+searchFunc(path, 'local-search-input', 'local-search-result');
+</script><script type="text/javascript" src="/js/love.js?v=1.0.0"></script><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
