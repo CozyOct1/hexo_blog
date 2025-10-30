@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>⚡️2025-10-30GitHub日榜Top5｜Chainlink连接现实世界数据</title>
+      <link href="/2025/10/29/github_md/%E2%9A%A1%EF%B8%8F2025-10-30GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CChainlink%E8%BF%9E%E6%8E%A5%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E6%95%B0%E6%8D%AE/"/>
+      <url>/2025/10/29/github_md/%E2%9A%A1%EF%B8%8F2025-10-30GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CChainlink%E8%BF%9E%E6%8E%A5%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E6%95%B0%E6%8D%AE/</url>
+      
+        <content type="html"><![CDATA[<h2 id="今日项目趋势"><a href="#今日项目趋势" class="headerlink" title="今日项目趋势:"></a><strong>今日项目趋势:</strong></h2><p>AI赋能开发工具、本地隐私保护应用及多平台社交媒体分析工具成GitHub今日热点。</p><hr><h2 id="🚀-smartcontractkit-chainlink"><a href="#🚀-smartcontractkit-chainlink" class="headerlink" title="🚀 smartcontractkit &#x2F;chainlink"></a>🚀 <a href="https://github.com/smartcontractkit/chainlink">smartcontractkit &#x2F;chainlink</a></h2><blockquote><p>💡 <strong>简介</strong>：此仓库包含Chainlink核心节点和合约，提供对现实世界数据和链下计算的访问，扩展智能合约能力，支持从Docker Hub下载预构建镜像，并有详细的构建、运行和开发指南。</p></blockquote><h3 id="📊-项目概览"><a href="#📊-项目概览" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>5</td></tr><tr><td>⭐ Stars</td><td>7923</td></tr><tr><td>⚒️ Forks</td><td>1890</td></tr><tr><td>💻 Language</td><td>Go</td></tr></tbody></table><h3 id="✨-核心优势"><a href="#✨-核心优势" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>扩展智能合约能力，连接现实世界数据</li><li>预构建Docker镜像，便于节点快速部署</li><li>丰富的外部适配器，支持自定义计算集成</li><li>活跃社区支持，提供日常交流与开发帮助</li></ul><hr><h2 id="🚀-cjpais-Handy"><a href="#🚀-cjpais-Handy" class="headerlink" title="🚀 cjpais &#x2F;Handy"></a>🚀 <a href="https://github.com/cjpais/Handy">cjpais &#x2F;Handy</a></h2><blockquote><p>💡 <strong>简介</strong>：Handy是一款基于Tauri构建的跨平台免费开源离线语音转文字桌面应用，使用Whisper和Parakeet V3模型进行本地语音识别，提供简洁、注重隐私的转录功能并支持二次开发。</p></blockquote><h3 id="📊-项目概览-1"><a href="#📊-项目概览-1" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>466</td></tr><tr><td>⭐ Stars</td><td>4563</td></tr><tr><td>⚒️ Forks</td><td>287</td></tr><tr><td>💻 Language</td><td>TypeScript</td></tr></tbody></table><h3 id="✨-核心优势-1"><a href="#✨-核心优势-1" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>免费开源，注重隐私保护</li><li>本地处理语音，无需云端传输</li><li>支持多种语音识别模型</li><li>跨平台兼容Windows&#x2F;macOS&#x2F;Linux</li></ul><hr><h2 id="🚀-qeeqbox-social-analyzer"><a href="#🚀-qeeqbox-social-analyzer" class="headerlink" title="🚀 qeeqbox &#x2F;social-analyzer"></a>🚀 <a href="https://github.com/qeeqbox/social-analyzer">qeeqbox &#x2F;social-analyzer</a></h2><blockquote><p>💡 <strong>简介</strong>：社交分析器是一个用于分析和查找个人在1000多个社交媒体网站上资料的OSINT工具，提供API、CLI和Web应用，包含多种分析检测模块，可帮助调查网络欺凌等恶意活动。</p></blockquote><h3 id="📊-项目概览-2"><a href="#📊-项目概览-2" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>692</td></tr><tr><td>⭐ Stars</td><td>15835</td></tr><tr><td>⚒️ Forks</td><td>1296</td></tr><tr><td>💻 Language</td><td>JavaScript</td></tr></tbody></table><h3 id="✨-核心优势-2"><a href="#✨-核心优势-2" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>多平台支持：支持Web、CLI和Python API</li><li>多维度分析：包含字符串分析、元数据提取等功能</li><li>多层检测机制：OCR、正常、高级和特殊检测模式</li><li>执法级应用：被资源有限国家执法机构使用</li></ul><hr><h2 id="🚀-open-telemetry-opentelemetry-collector"><a href="#🚀-open-telemetry-opentelemetry-collector" class="headerlink" title="🚀 open-telemetry &#x2F;opentelemetry-collector"></a>🚀 <a href="https://github.com/open-telemetry/opentelemetry-collector">open-telemetry &#x2F;opentelemetry-collector</a></h2><blockquote><p>💡 <strong>简介</strong>：OpenTelemetry Collector是一个与厂商无关的实现，用于接收、处理和导出遥测数据，消除运行多个代理&#x2F;收集器的需求，支持开源遥测数据格式到多个后端。</p></blockquote><h3 id="📊-项目概览-3"><a href="#📊-项目概览-3" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>6</td></tr><tr><td>⭐ Stars</td><td>5987</td></tr><tr><td>⚒️ Forks</td><td>1754</td></tr><tr><td>💻 Language</td><td>Go</td></tr></tbody></table><h3 id="✨-核心优势-3"><a href="#✨-核心优势-3" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>厂商无关，多协议支持</li><li>消除多代理维护需求</li><li>高性能且高度稳定</li><li>可扩展且易于定制</li></ul><hr><h2 id="🚀-microsoft-Web-Dev-For-Beginners"><a href="#🚀-microsoft-Web-Dev-For-Beginners" class="headerlink" title="🚀 microsoft &#x2F;Web-Dev-For-Beginners"></a>🚀 <a href="https://github.com/microsoft/Web-Dev-For-Beginners">microsoft &#x2F;Web-Dev-For-Beginners</a></h2><blockquote><p>💡 <strong>简介</strong>：这是微软云倡导者提供的12周Web开发初学者课程，通过24节动手项目课程学习JavaScript、CSS和HTML，支持多语言，包含GitHub Copilot挑战和生成式AI课程。</p></blockquote><h3 id="📊-项目概览-4"><a href="#📊-项目概览-4" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>59</td></tr><tr><td>⭐ Stars</td><td>92815</td></tr><tr><td>⚒️ Forks</td><td>14399</td></tr><tr><td>💻 Language</td><td>JavaScript</td></tr></tbody></table><h3 id="✨-核心优势-4"><a href="#✨-核心优势-4" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>微软云倡导者提供，权威性强</li><li>12周综合课程，系统性强</li><li>多语言支持，覆盖广泛</li><li>项目驱动教学，实践价值高</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Github日榜 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>⚡️2025-10-29GitHub日榜Top5｜本地优先AI协作画布</title>
       <link href="/2025/10/28/github_md/%E2%9A%A1%EF%B8%8F2025-10-29GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E6%9C%AC%E5%9C%B0%E4%BC%98%E5%85%88AI%E5%8D%8F%E4%BD%9C%E7%94%BB%E5%B8%83/"/>
       <url>/2025/10/28/github_md/%E2%9A%A1%EF%B8%8F2025-10-29GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E6%9C%AC%E5%9C%B0%E4%BC%98%E5%85%88AI%E5%8D%8F%E4%BD%9C%E7%94%BB%E5%B8%83/</url>
