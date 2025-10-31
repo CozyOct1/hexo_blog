@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>⚡️2025-10-31GitHub日榜Top5｜Helm简化K8s应用管理</title>
+      <link href="/2025/10/30/github_md/%E2%9A%A1%EF%B8%8F2025-10-31GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CHelm%E7%AE%80%E5%8C%96K8s%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86/"/>
+      <url>/2025/10/30/github_md/%E2%9A%A1%EF%B8%8F2025-10-31GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CHelm%E7%AE%80%E5%8C%96K8s%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<h2 id="今日项目趋势"><a href="#今日项目趋势" class="headerlink" title="今日项目趋势:"></a><strong>今日项目趋势:</strong></h2><p>GitHub今日热点趋势：AI工程实践资源（如ai-engineering-hub）和开源安全机制（如OpenTelemetry镜像签名）成为亮点，同时社交分析工具持续受关注。</p><hr><h2 id="🚀-helm-helm"><a href="#🚀-helm-helm" class="headerlink" title="🚀 helm &#x2F;helm"></a>🚀 <a href="https://github.com/helm/helm">helm &#x2F;helm</a></h2><blockquote><p>💡 <strong>简介</strong>：Helm是一个简化Kubernetes应用安装和管理的工具，可用于查找、分享、构建和管理Kubernetes应用的Charts包。</p></blockquote><h3 id="📊-项目概览"><a href="#📊-项目概览" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>12</td></tr><tr><td>⭐ Stars</td><td>28829</td></tr><tr><td>⚒️ Forks</td><td>7377</td></tr><tr><td>💻 Language</td><td>Go</td></tr></tbody></table><h3 id="✨-核心优势"><a href="#✨-核心优势" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>简化K8s应用安装和管理</li><li>支持Charts模板化部署</li><li>多渠道便捷安装方式</li><li>提供完整文档和社区支持</li></ul><hr><h2 id="🚀-storybookjs-storybook"><a href="#🚀-storybookjs-storybook" class="headerlink" title="🚀 storybookjs &#x2F;storybook"></a>🚀 <a href="https://github.com/storybookjs/storybook">storybookjs &#x2F;storybook</a></h2><blockquote><p>💡 <strong>简介</strong>：Storybook是用于隔离构建UI组件和页面的前端工作室，支持React、Vue、Angular等多种框架及移动开发，数千团队用于UI开发、测试和文档编写。</p></blockquote><h3 id="📊-项目概览-1"><a href="#📊-项目概览-1" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>18</td></tr><tr><td>⭐ Stars</td><td>88441</td></tr><tr><td>⚒️ Forks</td><td>9748</td></tr><tr><td>💻 Language</td><td>TypeScript</td></tr></tbody></table><h3 id="✨-核心优势-1"><a href="#✨-核心优势-1" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>支持多框架和多平台开发</li><li>丰富的插件生态系统</li><li>组件文档与测试一体化</li><li>活跃的社区支持与持续更新</li></ul><hr><h2 id="🚀-open-telemetry-opentelemetry-collector"><a href="#🚀-open-telemetry-opentelemetry-collector" class="headerlink" title="🚀 open-telemetry &#x2F;opentelemetry-collector"></a>🚀 <a href="https://github.com/open-telemetry/opentelemetry-collector">open-telemetry &#x2F;opentelemetry-collector</a></h2><blockquote><p>💡 <strong>简介</strong>：该文档介绍了OpenTelemetry Collector v0.98.0版本镜像签名验证说明，包括从v0.95.0开始对<code>otel/opentelemetry-collector</code>和<code>otel/opentelemetry-collector-contrib</code>镜像使用sigstore cosign工具签名，提供了验证命令及示例，还列出了维护者、审批者、整理者及名誉角色等社区成员信息。</p></blockquote><h3 id="📊-项目概览-2"><a href="#📊-项目概览-2" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>108</td></tr><tr><td>⭐ Stars</td><td>6092</td></tr><tr><td>⚒️ Forks</td><td>1764</td></tr><tr><td>💻 Language</td><td>Go</td></tr></tbody></table><h3 id="✨-核心优势-2"><a href="#✨-核心优势-2" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>从v0.95.0版本开始对镜像进行签名</li><li>使用sigstore cosign工具签名，确保镜像安全</li><li>提供详细验证命令及示例，操作便捷</li><li>社区团队完善，维护和审批机制健全</li></ul><hr><h2 id="🚀-qeeqbox-social-analyzer"><a href="#🚀-qeeqbox-social-analyzer" class="headerlink" title="🚀 qeeqbox &#x2F;social-analyzer"></a>🚀 <a href="https://github.com/qeeqbox/social-analyzer">qeeqbox &#x2F;social-analyzer</a></h2><blockquote><p>💡 <strong>简介</strong>：社交分析器是一个可通过API、CLI和Web应用跨1000多个社交媒体网站分析和查找个人资料的OSINT工具，包含多种检测模块，可辅助调查网络欺凌等恶意活动。</p></blockquote><h3 id="📊-项目概览-3"><a href="#📊-项目概览-3" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>672</td></tr><tr><td>⭐ Stars</td><td>16465</td></tr><tr><td>⚒️ Forks</td><td>1345</td></tr><tr><td>💻 Language</td><td>JavaScript</td></tr></tbody></table><h3 id="✨-核心优势-3"><a href="#✨-核心优势-3" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>多平台支持：提供API、CLI和Web应用</li><li>多维度分析：含字符串分析、个人资料搜索等10+功能</li><li>精准检测机制：多层检测减少误报</li><li>多场景应用：适用于网络欺凌等恶意活动调查</li></ul><hr><h2 id="🚀-patchy631-ai-engineering-hub"><a href="#🚀-patchy631-ai-engineering-hub" class="headerlink" title="🚀 patchy631 &#x2F;ai-engineering-hub"></a>🚀 <a href="https://github.com/patchy631/ai-engineering-hub">patchy631 &#x2F;ai-engineering-hub</a></h2><blockquote><p>💡 <strong>简介</strong>：AI工程中心提供93+个生产级AI项目（分初&#x2F;中&#x2F;高级）、大语言模型&#x2F;智能体等深入教程，以及真实世界AI应用示例，适合各级技能水平学习者进行实验和实践。</p></blockquote><h3 id="📊-项目概览-4"><a href="#📊-项目概览-4" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>228</td></tr><tr><td>⭐ Stars</td><td>19962</td></tr><tr><td>⚒️ Forks</td><td>3338</td></tr><tr><td>💻 Language</td><td>Jupyter Notebook</td></tr></tbody></table><h3 id="✨-核心优势-4"><a href="#✨-核心优势-4" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>涵盖93+生产级AI项目，适合各技能水平</li><li>包含大语言模型、RAG、智能体等深入教程</li><li>提供真实世界AI智能体应用案例</li><li>可直接实现、调整和扩展的实用示例</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Github日榜 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>⚡️2025-10-30GitHub日榜Top5｜Chainlink连接现实世界数据</title>
       <link href="/2025/10/29/github_md/%E2%9A%A1%EF%B8%8F2025-10-30GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CChainlink%E8%BF%9E%E6%8E%A5%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E6%95%B0%E6%8D%AE/"/>
       <url>/2025/10/29/github_md/%E2%9A%A1%EF%B8%8F2025-10-30GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CChainlink%E8%BF%9E%E6%8E%A5%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E6%95%B0%E6%8D%AE/</url>
