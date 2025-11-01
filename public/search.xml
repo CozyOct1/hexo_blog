@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>⚡️2025-11-01GitHub日榜Top5｜AI应用构建工具</title>
+      <link href="/2025/11/01/github_md/%E2%9A%A1%EF%B8%8F2025-11-01GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CAI%E5%BA%94%E7%94%A8%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/"/>
+      <url>/2025/11/01/github_md/%E2%9A%A1%EF%B8%8F2025-11-01GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CAI%E5%BA%94%E7%94%A8%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/</url>
+      
+        <content type="html"><![CDATA[<h2 id="今日项目趋势"><a href="#今日项目趋势" class="headerlink" title="今日项目趋势:"></a><strong>今日项目趋势:</strong></h2><p>GitHub热点趋势：AI本地部署工具（Jan）居首，文档处理框架（WeKnora）、协作文本编辑器（La Suite Docs）及Web开发课程成焦点，技术生态持续扩展。</p><hr><h2 id="🚀-get-convex-chef"><a href="#🚀-get-convex-chef" class="headerlink" title="🚀 get-convex &#x2F;chef"></a>🚀 <a href="https://github.com/get-convex/chef">get-convex &#x2F;chef</a></h2><blockquote><p>💡 <strong>简介</strong>：Chef是基于开源响应式数据库Convex构建的AI应用构建工具，可简化Web应用开发，提供内置数据库、零配置认证等功能，支持通过Web应用或本地运行使用。</p></blockquote><h3 id="📊-项目概览"><a href="#📊-项目概览" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>61</td></tr><tr><td>⭐ Stars</td><td>2592</td></tr><tr><td>⚒️ Forks</td><td>503</td></tr><tr><td>💻 Language</td><td>TypeScript</td></tr></tbody></table><h3 id="✨-核心优势"><a href="#✨-核心优势" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>了解后端的AI应用构建工具</li><li>全栈Web应用开发，功能全面</li><li>基于开源响应式数据库Convex构建</li><li>提供Web应用和本地运行两种使用方式</li></ul><hr><h2 id="🚀-suitenumerique-docs"><a href="#🚀-suitenumerique-docs" class="headerlink" title="🚀 suitenumerique &#x2F;docs"></a>🚀 <a href="https://github.com/suitenumerique/docs">suitenumerique &#x2F;docs</a></h2><blockquote><p>💡 <strong>简介</strong>：La Suite Docs是一款基于Django Rest Framework、Next.js、BlockNote.js等技术构建的协作文本编辑器，支持实时协作、多种格式编辑、离线写作及AI辅助功能，支持自托管并提供多种格式导出和精细访问控制。</p></blockquote><h3 id="📊-项目概览-1"><a href="#📊-项目概览-1" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>26</td></tr><tr><td>⭐ Stars</td><td>14140</td></tr><tr><td>⚒️ Forks</td><td>423</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势-1"><a href="#✨-核心优势-1" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>支持实时协作编辑功能</li><li>提供丰富的格式和AI辅助功能</li><li>支持离线写作与自动同步</li><li>支持多种格式导出与模板自定义</li></ul><hr><h2 id="🚀-Tencent-WeKnora"><a href="#🚀-Tencent-WeKnora" class="headerlink" title="🚀 Tencent &#x2F;WeKnora"></a>🚀 <a href="https://github.com/Tencent/WeKnora">Tencent &#x2F;WeKnora</a></h2><blockquote><p>💡 <strong>简介</strong>：WeKnora是一个基于大语言模型的文档理解与检索框架，采用模块化架构和RAG范式，支持多模态文档处理、语义检索和智能问答，适用于企业知识管理、学术研究分析等场景。</p></blockquote><h3 id="📊-项目概览-2"><a href="#📊-项目概览-2" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>248</td></tr><tr><td>⭐ Stars</td><td>7111</td></tr><tr><td>⚒️ Forks</td><td>809</td></tr><tr><td>💻 Language</td><td>Go</td></tr></tbody></table><h3 id="✨-核心优势-2"><a href="#✨-核心优势-2" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>模块化架构，支持灵活扩展和自定义</li><li>多模态文档处理，支持多种格式和OCR</li><li>混合检索策略，提升检索准确性和效率</li><li>本地部署与云服务兼容，保障数据安全</li></ul><hr><h2 id="🚀-janhq-jan"><a href="#🚀-janhq-jan" class="headerlink" title="🚀 janhq &#x2F;jan"></a>🚀 <a href="https://github.com/janhq/jan">janhq &#x2F;jan</a></h2><blockquote><p>💡 <strong>简介</strong>：Jan是一个开源的类ChatGPT产品，它将最佳的开源AI技术整合到易于使用的产品中，支持本地运行LLMs并可与多种AI模型集成，注重隐私保护且提供多种安装和使用方式。</p></blockquote><h3 id="📊-项目概览-3"><a href="#📊-项目概览-3" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>109</td></tr><tr><td>⭐ Stars</td><td>38885</td></tr><tr><td>⚒️ Forks</td><td>2344</td></tr><tr><td>💻 Language</td><td>TypeScript</td></tr></tbody></table><h3 id="✨-核心优势-3"><a href="#✨-核心优势-3" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>本地运行AI模型，保护隐私安全</li><li>支持多种主流AI模型，使用灵活</li><li>兼容OpenAI API，便于二次开发</li><li>提供多平台安装包，易于部署使用</li></ul><hr><h2 id="🚀-microsoft-Web-Dev-For-Beginners"><a href="#🚀-microsoft-Web-Dev-For-Beginners" class="headerlink" title="🚀 microsoft &#x2F;Web-Dev-For-Beginners"></a>🚀 <a href="https://github.com/microsoft/Web-Dev-For-Beginners">microsoft &#x2F;Web-Dev-For-Beginners</a></h2><blockquote><p>💡 <strong>简介</strong>：这是一个由微软云倡导者开发的12周Web开发入门课程，通过24节课的动手项目（如微型生态系统、浏览器扩展和太空游戏）深入探讨JavaScript、CSS和HTML，支持多语言，提供完整的学习资源和环境设置指南。</p></blockquote><h3 id="📊-项目概览-4"><a href="#📊-项目概览-4" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>327</td></tr><tr><td>⭐ Stars</td><td>93631</td></tr><tr><td>⚒️ Forks</td><td>14538</td></tr><tr><td>💻 Language</td><td>JavaScript</td></tr></tbody></table><h3 id="✨-核心优势-4"><a href="#✨-核心优势-4" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>多语言支持，覆盖30+种语言</li><li>基于项目的教学法，提升知识留存率</li><li>提供现成开发环境，支持Codespace和本地运行</li><li>课程内容从基础到进阶，循序渐进</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Github日榜 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>⚡️2025-10-31GitHub日榜Top5｜Helm简化K8s应用管理</title>
       <link href="/2025/10/30/github_md/%E2%9A%A1%EF%B8%8F2025-10-31GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CHelm%E7%AE%80%E5%8C%96K8s%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86/"/>
       <url>/2025/10/30/github_md/%E2%9A%A1%EF%B8%8F2025-10-31GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CHelm%E7%AE%80%E5%8C%96K8s%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86/</url>
