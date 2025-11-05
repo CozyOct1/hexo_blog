@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>⚡️2025-11-05GitHub日榜Top5｜AI舆情分析系统</title>
+      <link href="/2025/11/04/github_md/%E2%9A%A1%EF%B8%8F2025-11-05GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CAI%E8%88%86%E6%83%85%E5%88%86%E6%9E%90%E7%B3%BB%E7%BB%9F/"/>
+      <url>/2025/11/04/github_md/%E2%9A%A1%EF%B8%8F2025-11-05GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CAI%E8%88%86%E6%83%85%E5%88%86%E6%9E%90%E7%B3%BB%E7%BB%9F/</url>
+      
+        <content type="html"><![CDATA[<h2 id="今日项目趋势"><a href="#今日项目趋势" class="headerlink" title="今日项目趋势:"></a><strong>今日项目趋势:</strong></h2><p>AI领域多模态舆情分析系统、轻量级LLM推理框架及本地部署方案成GitHub热点，技术实用性与易用性并重。</p><hr><h2 id="🚀-666ghj-BettaFish"><a href="#🚀-666ghj-BettaFish" class="headerlink" title="🚀 666ghj &#x2F;BettaFish"></a>🚀 <a href="https://github.com/666ghj/BettaFish">666ghj &#x2F;BettaFish</a></h2><blockquote><p>💡 <strong>简介</strong>：“微舆”是一个从0实现的创新型多智能体舆情分析系统，通过AI驱动的全域监控、复合分析引擎、多模态能力等优势，帮助破除信息茧房，辅助决策。</p></blockquote><h3 id="📊-项目概览"><a href="#📊-项目概览" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>4577</td></tr><tr><td>⭐ Stars</td><td>12560</td></tr><tr><td>⚒️ Forks</td><td>2108</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势"><a href="#✨-核心优势" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>AI驱动的全域监控，覆盖多平台实时捕获</li><li>多模型复合分析引擎，超越单一LLM能力</li><li>强大多模态解析，提取结构化信息卡片</li><li>轻量化框架，支持自定义模型集成部署</li></ul><hr><h2 id="🚀-sst-opentui"><a href="#🚀-sst-opentui" class="headerlink" title="🚀 sst &#x2F;opentui"></a>🚀 <a href="https://github.com/sst/opentui">sst &#x2F;opentui</a></h2><blockquote><p>💡 <strong>简介</strong>：OpenTUI是一个用于构建终端用户界面(TUIs)的TypeScript库，处于开发阶段，包含核心库及React、SolidJS等协调器包，可通过bun create tui快速启动。</p></blockquote><h3 id="📊-项目概览-1"><a href="#📊-项目概览-1" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>249</td></tr><tr><td>⭐ Stars</td><td>4162</td></tr><tr><td>⚒️ Forks</td><td>151</td></tr><tr><td>💻 Language</td><td>TypeScript</td></tr></tbody></table><h3 id="✨-核心优势-1"><a href="#✨-核心优势-1" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>支持多框架协调器（React&#x2F;Solid&#x2F;Vue）</li><li>提供命令式API和基础组件</li><li>开发了便捷的本地开发链接工具</li><li>支持快速启动和示例运行</li></ul><hr><h2 id="🚀-GeeeekExplorer-nano-vllm"><a href="#🚀-GeeeekExplorer-nano-vllm" class="headerlink" title="🚀 GeeeekExplorer &#x2F;nano-vllm"></a>🚀 <a href="https://github.com/GeeeekExplorer/nano-vllm">GeeeekExplorer &#x2F;nano-vllm</a></h2><blockquote><p>💡 <strong>简介</strong>：Nano-vLLM是一个从零开始构建的轻量级vLLM实现，具有快速离线推理、可读代码库和优化套件等特性，API与vLLM类似且约1200行简洁Python代码。</p></blockquote><h3 id="📊-项目概览-2"><a href="#📊-项目概览-2" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>333</td></tr><tr><td>⭐ Stars</td><td>8233</td></tr><tr><td>⚒️ Forks</td><td>1007</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势-2"><a href="#✨-核心优势-2" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>推理速度接近vLLM性能</li><li>代码简洁，约1200行易于理解</li><li>集成多种优化技术提升效率</li><li>API兼容vLLM，使用门槛低</li></ul><hr><h2 id="🚀-mudler-LocalAI"><a href="#🚀-mudler-LocalAI" class="headerlink" title="🚀 mudler &#x2F;LocalAI"></a>🚀 <a href="https://github.com/mudler/LocalAI">mudler &#x2F;LocalAI</a></h2><blockquote><p>💡 <strong>简介</strong>：LocalAI 是免费开源的 OpenAI 替代品，作为兼容 OpenAI API 规范的嵌入式 REST API，支持本地部署 AI 推理，可在消费级硬件上运行 LLM、生成图像音频等，无需 GPU。</p></blockquote><h3 id="📊-项目概览-3"><a href="#📊-项目概览-3" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>333</td></tr><tr><td>⭐ Stars</td><td>36976</td></tr><tr><td>⚒️ Forks</td><td>2924</td></tr><tr><td>💻 Language</td><td>Go</td></tr></tbody></table><h3 id="✨-核心优势-3"><a href="#✨-核心优势-3" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>兼容OpenAI API规范，易于集成</li><li>支持多平台部署，消费级硬件可用</li><li>多模态AI推理，涵盖语言、图像、音频</li><li>丰富后端支持，含多种模型加速方案</li></ul><hr><h2 id="🚀-1Panel-dev-MaxKB"><a href="#🚀-1Panel-dev-MaxKB" class="headerlink" title="🚀 1Panel-dev &#x2F;MaxKB"></a>🚀 <a href="https://github.com/1Panel-dev/MaxKB">1Panel-dev &#x2F;MaxKB</a></h2><blockquote><p>💡 <strong>简介</strong>：MaxKB(Max Knowledge Brain)是一个集成RAG管道、支持强大工作流和MCP工具使用能力，广泛应用于智能客服、企业知识库等场景的企业级智能体开源平台。</p></blockquote><h3 id="📊-项目概览-4"><a href="#📊-项目概览-4" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>145</td></tr><tr><td>⭐ Stars</td><td>19137</td></tr><tr><td>⚒️ Forks</td><td>2485</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势-4"><a href="#✨-核心优势-4" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>强大的RAG管道支持文档处理</li><li>智能工作流引擎满足复杂场景</li><li>多模型支持适配各类部署需求</li><li>原生多模态数据处理能力</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Github日榜 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>⚡️2025-11-04GitHub日榜Top5｜AI舆情分析系统</title>
       <link href="/2025/11/03/github_md/%E2%9A%A1%EF%B8%8F2025-11-04GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CAI%E8%88%86%E6%83%85%E5%88%86%E6%9E%90%E7%B3%BB%E7%BB%9F/"/>
       <url>/2025/11/03/github_md/%E2%9A%A1%EF%B8%8F2025-11-04GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CAI%E8%88%86%E6%83%85%E5%88%86%E6%9E%90%E7%B3%BB%E7%BB%9F/</url>
