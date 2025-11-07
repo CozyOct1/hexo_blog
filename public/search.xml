@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>⚡️2025-11-07GitHub日榜Top5｜AI舆情分析系统</title>
+      <link href="/2025/11/06/github_md/%E2%9A%A1%EF%B8%8F2025-11-07GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CAI%E8%88%86%E6%83%85%E5%88%86%E6%9E%90%E7%B3%BB%E7%BB%9F/"/>
+      <url>/2025/11/06/github_md/%E2%9A%A1%EF%B8%8F2025-11-07GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CAI%E8%88%86%E6%83%85%E5%88%86%E6%9E%90%E7%B3%BB%E7%BB%9F/</url>
+      
+        <content type="html"><![CDATA[<h2 id="今日项目趋势"><a href="#今日项目趋势" class="headerlink" title="今日项目趋势:"></a><strong>今日项目趋势:</strong></h2><p>AI驱动工具成GitHub热点，BettaFish(多智能体舆情分析)、Skyvern(浏览器工作流自动化)、LocalAI(本地OpenAI替代)和NocoBase(无代码平台)引领趋势。</p><hr><h2 id="🚀-666ghj-BettaFish"><a href="#🚀-666ghj-BettaFish" class="headerlink" title="🚀 666ghj &#x2F;BettaFish"></a>🚀 <a href="https://github.com/666ghj/BettaFish">666ghj &#x2F;BettaFish</a></h2><blockquote><p>💡 <strong>简介</strong>：微舆是一个从零实现的创新型多智能体舆情分析系统，通过AI驱动的全域监控、复合分析引擎、多模态能力、Agent协作机制等六大优势，帮助用户破除信息茧房，还原舆情原貌，预测未来走向，辅助决策。</p></blockquote><h3 id="📊-项目概览"><a href="#📊-项目概览" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>3226</td></tr><tr><td>⭐ Stars</td><td>19384</td></tr><tr><td>⚒️ Forks</td><td>3778</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势"><a href="#✨-核心优势" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>多智能体协同分析，提升深度与广度</li><li>AI驱动全域社媒监控，覆盖10+平台</li><li>多模态分析支持短视频内容解析</li><li>模块化设计，便于扩展与定制</li></ul><hr><h2 id="🚀-Skyvern-AI-skyvern"><a href="#🚀-Skyvern-AI-skyvern" class="headerlink" title="🚀 Skyvern-AI &#x2F;skyvern"></a>🚀 <a href="https://github.com/Skyvern-AI/skyvern">Skyvern-AI &#x2F;skyvern</a></h2><blockquote><p>💡 <strong>简介</strong>：Skyvern是一款使用LLMs和计算机视觉自动化基于浏览器工作流的工具，通过视觉LLMs学习和与网站交互，无需定制代码即可在大量网站上自动化完成填写表单、登录、下载文件等RPA相关任务。</p></blockquote><h3 id="📊-项目概览-1"><a href="#📊-项目概览-1" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>889</td></tr><tr><td>⭐ Stars</td><td>16820</td></tr><tr><td>⚒️ Forks</td><td>1423</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势-1"><a href="#✨-核心优势-1" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>无需定制代码即可自动化浏览器工作流</li><li>视觉LLMs降低网站布局变化敏感性</li><li>支持多LLM提供商，灵活选择模型</li><li>提供UI和API双重操作方式</li></ul><hr><h2 id="🚀-nocobase-nocobase"><a href="#🚀-nocobase-nocobase" class="headerlink" title="🚀 nocobase &#x2F;nocobase"></a>🚀 <a href="https://github.com/nocobase/nocobase">nocobase &#x2F;nocobase</a></h2><blockquote><p>💡 <strong>简介</strong>：NocoBase 是AI驱动的可扩展无代码平台，采用数据模型驱动，集成AI能力，支持插件扩展，提供多种安装方式。</p></blockquote><h3 id="📊-项目概览-2"><a href="#📊-项目概览-2" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>379</td></tr><tr><td>⭐ Stars</td><td>18512</td></tr><tr><td>⚒️ Forks</td><td>2091</td></tr><tr><td>💻 Language</td><td>TypeScript</td></tr></tbody></table><h3 id="✨-核心优势-2"><a href="#✨-核心优势-2" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>数据模型驱动，UI与数据结构解耦</li><li>AI能力无缝嵌入业务系统</li><li>所见即所得，易于普通用户使用</li><li>基于插件的微内核架构，扩展能力强</li></ul><hr><h2 id="🚀-mudler-LocalAI"><a href="#🚀-mudler-LocalAI" class="headerlink" title="🚀 mudler &#x2F;LocalAI"></a>🚀 <a href="https://github.com/mudler/LocalAI">mudler &#x2F;LocalAI</a></h2><blockquote><p>💡 <strong>简介</strong>：LocalAI 是免费开源的 OpenAI 替代品，提供与 OpenAI 等 API 规范兼容的嵌入式 REST API，支持本地运行多种 LLM 及图像、音频生成，无需 GPU，属于 Local Stack Family 工具套件的一部分。</p></blockquote><h3 id="📊-项目概览-3"><a href="#📊-项目概览-3" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>351</td></tr><tr><td>⭐ Stars</td><td>37651</td></tr><tr><td>⚒️ Forks</td><td>2968</td></tr><tr><td>💻 Language</td><td>Go</td></tr></tbody></table><h3 id="✨-核心优势-3"><a href="#✨-核心优势-3" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>与OpenAI API规范兼容的本地AI推理解决方案</li><li>支持多种硬件平台，无需GPU即可运行LLM</li><li>集成丰富的AI功能，包括文本、图像、音频处理</li><li>提供多种安装方式，支持Docker、macOS和多种GPU加速</li></ul><hr><h2 id="🚀-sst-opentui"><a href="#🚀-sst-opentui" class="headerlink" title="🚀 sst &#x2F;opentui"></a>🚀 <a href="https://github.com/sst/opentui">sst &#x2F;opentui</a></h2><blockquote><p>💡 <strong>简介</strong>：OpenTUI 是一个TypeScript开发的终端用户界面（TUIs）构建库，处于开发阶段，包含核心库及React、SolidJS等协调器，提供快速开始命令和本地开发链接脚本。</p></blockquote><h3 id="📊-项目概览-4"><a href="#📊-项目概览-4" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>204</td></tr><tr><td>⭐ Stars</td><td>4671</td></tr><tr><td>⚒️ Forks</td><td>172</td></tr><tr><td>💻 Language</td><td>TypeScript</td></tr></tbody></table><h3 id="✨-核心优势-4"><a href="#✨-核心优势-4" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>支持多框架：提供React、Solid等协调器</li><li>开发友好：内置本地开发链接脚本</li><li>TypeScript优先：核心使用TypeScript开发</li><li>快速启动：简化的bun create tui命令</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Github日榜 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>⚡️2025-11-06GitHub日榜Top5｜AI舆情分析系统</title>
       <link href="/2025/11/05/github_md/%E2%9A%A1%EF%B8%8F2025-11-06GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CAI%E8%88%86%E6%83%85%E5%88%86%E6%9E%90%E7%B3%BB%E7%BB%9F/"/>
       <url>/2025/11/05/github_md/%E2%9A%A1%EF%B8%8F2025-11-06GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CAI%E8%88%86%E6%83%85%E5%88%86%E6%9E%90%E7%B3%BB%E7%BB%9F/</url>
