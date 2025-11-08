@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>⚡️2025-11-08GitHub日榜Top5｜AI黑客代理安全测试工具</title>
+      <link href="/2025/11/08/github_md/%E2%9A%A1%EF%B8%8F2025-11-08GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CAI%E9%BB%91%E5%AE%A2%E4%BB%A3%E7%90%86%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7/"/>
+      <url>/2025/11/08/github_md/%E2%9A%A1%EF%B8%8F2025-11-08GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CAI%E9%BB%91%E5%AE%A2%E4%BB%A3%E7%90%86%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7/</url>
+      
+        <content type="html"><![CDATA[<h2 id="今日项目趋势"><a href="#今日项目趋势" class="headerlink" title="今日项目趋势:"></a><strong>今日项目趋势:</strong></h2><p>AI安全代理工具Strix以659的涨幅居首，同时隐私友好型分析工具Umami持续受关注，开源监控告警工具Alertmanager亦表现突出。</p><hr><h2 id="🚀-usestrix-strix"><a href="#🚀-usestrix-strix" class="headerlink" title="🚀 usestrix &#x2F;strix"></a>🚀 <a href="https://github.com/usestrix/strix">usestrix &#x2F;strix</a></h2><blockquote><p>💡 <strong>简介</strong>：Strix 是一个由开源AI黑客团队开发的自主AI代理，能模拟真实黑客行为，动态运行代码、发现漏洞并通过POC验证，无缝集成GitHub Actions和CI&#x2F;CD流水线，为应用提供安全保障。</p></blockquote><h3 id="📊-项目概览"><a href="#📊-项目概览" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>659</td></tr><tr><td>⭐ Stars</td><td>4085</td></tr><tr><td>⚒️ Forks</td><td>462</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势"><a href="#✨-核心优势" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>集成GitHub Actions和CI&#x2F;CD流水线，自动扫描漏洞</li><li>无需手动渗透测试，快速准确安全测试</li><li>开发者友好CLI，提供可操作报告</li><li>智能代理团队，动态发现验证漏洞</li></ul><hr><h2 id="🚀-umami-software-umami"><a href="#🚀-umami-software-umami" class="headerlink" title="🚀 umami-software &#x2F;umami"></a>🚀 <a href="https://github.com/umami-software/umami">umami-software &#x2F;umami</a></h2><blockquote><p>💡 <strong>简介</strong>：Umami 是一个简单、快速、注重隐私的替代 Google Analytics 的工具，支持通过源码或 Docker 安装，可在 umami.is 查看文档。</p></blockquote><h3 id="📊-项目概览-1"><a href="#📊-项目概览-1" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>296</td></tr><tr><td>⭐ Stars</td><td>32039</td></tr><tr><td>⚒️ Forks</td><td>5778</td></tr><tr><td>💻 Language</td><td>TypeScript</td></tr></tbody></table><h3 id="✨-核心优势-1"><a href="#✨-核心优势-1" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>替代Google Analytics，注重隐私保护</li><li>安装方式多样，支持源码和Docker</li><li>系统要求简单，易于部署</li><li>开源免费，社区支持完善</li></ul><hr><h2 id="🚀-prometheus-alertmanager"><a href="#🚀-prometheus-alertmanager" class="headerlink" title="🚀 prometheus &#x2F;alertmanager"></a>🚀 <a href="https://github.com/prometheus/alertmanager">prometheus &#x2F;alertmanager</a></h2><blockquote><p>💡 <strong>简介</strong>：Alertmanager是处理Prometheus服务器等客户端应用发送告警的工具，负责告警去重、分组、路由到目标集成，并处理静默和抑制，提供API和命令行工具amtool，支持高可用集群部署。</p></blockquote><h3 id="📊-项目概览-2"><a href="#📊-项目概览-2" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>461</td></tr><tr><td>⭐ Stars</td><td>7896</td></tr><tr><td>⚒️ Forks</td><td>2341</td></tr><tr><td>💻 Language</td><td>Go</td></tr></tbody></table><h3 id="✨-核心优势-2"><a href="#✨-核心优势-2" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>多安装方式支持，包括二进制、Docker和源码编译</li><li>强大的告警处理能力，支持去重、分组和多渠道路由</li><li>完善的API接口，支持对告警和静音进行管理</li><li>命令行工具amtool，便于日常操作和配置验证</li></ul><hr><h2 id="🚀-lima-vm-lima"><a href="#🚀-lima-vm-lima" class="headerlink" title="🚀 lima-vm &#x2F;lima"></a>🚀 <a href="https://github.com/lima-vm/lima">lima-vm &#x2F;lima</a></h2><blockquote><p>💡 <strong>简介</strong>：Lima 是一个启动 Linux 虚拟机的工具，具备自动文件共享和端口转发功能，支持多种容器引擎和非 macOS 主机，可用于容器应用和非容器应用。</p></blockquote><h3 id="📊-项目概览-3"><a href="#📊-项目概览-3" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>160</td></tr><tr><td>⭐ Stars</td><td>18550</td></tr><tr><td>⚒️ Forks</td><td>739</td></tr><tr><td>💻 Language</td><td>Go</td></tr></tbody></table><h3 id="✨-核心优势-3"><a href="#✨-核心优势-3" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>支持多平台运行，包括Linux、NetBSD</li><li>兼容多种容器引擎，如Docker、Podman、Kubernetes</li><li>具备自动文件共享和端口转发功能</li><li>提供丰富的使用场景和便捷的入门指南</li></ul><hr><h2 id="🚀-nocobase-nocobase"><a href="#🚀-nocobase-nocobase" class="headerlink" title="🚀 nocobase &#x2F;nocobase"></a>🚀 <a href="https://github.com/nocobase/nocobase">nocobase &#x2F;nocobase</a></h2><blockquote><p>💡 <strong>简介</strong>：NocoBase 是一款AI驱动的无代码平台，采用数据模型驱动，提供AI协作功能，基于插件架构设计，支持多种安装方式，能帮助团队快速适应并降低成本。</p></blockquote><h3 id="📊-项目概览-4"><a href="#📊-项目概览-4" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>132</td></tr><tr><td>⭐ Stars</td><td>18858</td></tr><tr><td>⚒️ Forks</td><td>2114</td></tr><tr><td>💻 Language</td><td>TypeScript</td></tr></tbody></table><h3 id="✨-核心优势-4"><a href="#✨-核心优势-4" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>数据模型驱动，结构与界面分离</li><li>AI能力无缝嵌入业务系统</li><li>界面简单直观，所见即所得</li><li>插件化架构，高度可扩展</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Github日榜 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>⚡️2025-11-07GitHub日榜Top5｜AI舆情分析系统</title>
       <link href="/2025/11/06/github_md/%E2%9A%A1%EF%B8%8F2025-11-07GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CAI%E8%88%86%E6%83%85%E5%88%86%E6%9E%90%E7%B3%BB%E7%BB%9F/"/>
       <url>/2025/11/06/github_md/%E2%9A%A1%EF%B8%8F2025-11-07GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9CAI%E8%88%86%E6%83%85%E5%88%86%E6%9E%90%E7%B3%BB%E7%BB%9F/</url>
