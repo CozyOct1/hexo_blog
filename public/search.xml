@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>⚡️2025-11-15GitHub日榜Top5｜热点智能推送工具</title>
+      <link href="/2025/11/14/github_md/%E2%9A%A1%EF%B8%8F2025-11-15GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E7%83%AD%E7%82%B9%E6%99%BA%E8%83%BD%E6%8E%A8%E9%80%81%E5%B7%A5%E5%85%B7/"/>
+      <url>/2025/11/14/github_md/%E2%9A%A1%EF%B8%8F2025-11-15GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C%E7%83%AD%E7%82%B9%E6%99%BA%E8%83%BD%E6%8E%A8%E9%80%81%E5%B7%A5%E5%85%B7/</url>
+      
+        <content type="html"><![CDATA[<h2 id="今日项目趋势"><a href="#今日项目趋势" class="headerlink" title="今日项目趋势:"></a><strong>今日项目趋势:</strong></h2><p>AI代理开发框架ADK（Go）、多平台热点聚合工具TrendRadar（Python）、教育资源开源项目ChinaTextbook成为今日GitHub热点前三，反映出AI工具开发、信息聚合与教育资源共享的技术趋势。</p><hr><h2 id="🚀-sansan0-TrendRadar"><a href="#🚀-sansan0-TrendRadar" class="headerlink" title="🚀 sansan0 &#x2F;TrendRadar"></a>🚀 <a href="https://github.com/sansan0/TrendRadar">sansan0 &#x2F;TrendRadar</a></h2><blockquote><p>🔗 <strong>链接</strong>: <a href="https://github.com/sansan0/TrendRadar">https://github.com/sansan0/TrendRadar</a></p></blockquote><blockquote><p>💡 <strong>简介</strong>：TrendRadar是一个以轻量易部署为目标，聚合全网热点，支持智能推送策略和精准内容筛选的工具。</p></blockquote><h3 id="📊-项目概览"><a href="#📊-项目概览" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>2033</td></tr><tr><td>⭐ Stars</td><td>13095</td></tr><tr><td>⚒️ Forks</td><td>7719</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势"><a href="#✨-核心优势" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>轻量易部署，目标明确</li><li>多平台热点聚合，信息全面</li><li>智能推送策略，按需接收</li><li>精准内容筛选，过滤无关信息</li></ul><hr><h2 id="🚀-google-adk-go"><a href="#🚀-google-adk-go" class="headerlink" title="🚀 google &#x2F;adk-go"></a>🚀 <a href="https://github.com/google/adk-go">google &#x2F;adk-go</a></h2><blockquote><p>🔗 <strong>链接</strong>: <a href="https://github.com/google/adk-go">https://github.com/google/adk-go</a></p></blockquote><blockquote><p>💡 <strong>简介</strong>：代理开发工具包（ADK）是一个Go语言编写的灵活模块化框架，专注于简化AI代理的构建、部署和编排，兼容其他框架，适合开发云原生代理应用。</p></blockquote><h3 id="📊-项目概览-1"><a href="#📊-项目概览-1" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>219</td></tr><tr><td>⭐ Stars</td><td>3365</td></tr><tr><td>⚒️ Forks</td><td>178</td></tr><tr><td>💻 Language</td><td>Go</td></tr></tbody></table><h3 id="✨-核心优势-1"><a href="#✨-核心优势-1" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>地道Go语言设计，发挥Go并发性能优势</li><li>模块化多代理系统，支持可扩展应用构建</li><li>跨平台部署，适配云原生环境</li><li>代码优先开发，提升灵活性与可测试性</li></ul><hr><h2 id="🚀-TapXWorld-ChinaTextbook"><a href="#🚀-TapXWorld-ChinaTextbook" class="headerlink" title="🚀 TapXWorld &#x2F;ChinaTextbook"></a>🚀 <a href="https://github.com/TapXWorld/ChinaTextbook">TapXWorld &#x2F;ChinaTextbook</a></h2><blockquote><p>🔗 <strong>链接</strong>: <a href="https://github.com/TapXWorld/ChinaTextbook">https://github.com/TapXWorld/ChinaTextbook</a></p></blockquote><blockquote><p>💡 <strong>简介</strong>：这是一个旨在促进义务教育普及和消除地区教育贫困，提供从小学到大学数学教材资源的开源项目，并提供文件合并程序帮助用户解决因GitHub文件大小限制被拆分的文件问题。</p></blockquote><h3 id="📊-项目概览-2"><a href="#📊-项目概览-2" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>320</td></tr><tr><td>⭐ Stars</td><td>56336</td></tr><tr><td>⚒️ Forks</td><td>12592</td></tr><tr><td>💻 Language</td><td>Roff</td></tr></tbody></table><h3 id="✨-核心优势-2"><a href="#✨-核心优势-2" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>免费提供优质教育资源，促进义务教育普及</li><li>消除地区教育贫困，助力教育公平</li><li>支持海外华人子女了解国内教育体系</li><li>提供文件合并工具，方便资源使用</li></ul><hr><h2 id="🚀-yeongpin-cursor-free-vip"><a href="#🚀-yeongpin-cursor-free-vip" class="headerlink" title="🚀 yeongpin &#x2F;cursor-free-vip"></a>🚀 <a href="https://github.com/yeongpin/cursor-free-vip">yeongpin &#x2F;cursor-free-vip</a></h2><blockquote><p>🔗 <strong>链接</strong>: <a href="https://github.com/yeongpin/cursor-free-vip">https://github.com/yeongpin/cursor-free-vip</a></p></blockquote><blockquote><p>💡 <strong>简介</strong>：Cursor Free VIP是一款支持Windows、macOS和Linux系统的工具，可重置Cursor配置，提供多语言支持，能通过脚本自动化安装运行并配置相关文件参数。</p></blockquote><h3 id="📊-项目概览-3"><a href="#📊-项目概览-3" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>309</td></tr><tr><td>⭐ Stars</td><td>41776</td></tr><tr><td>⚒️ Forks</td><td>5037</td></tr><tr><td>💻 Language</td><td>Python</td></tr></tbody></table><h3 id="✨-核心优势-3"><a href="#✨-核心优势-3" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>多平台系统支持（Windows&#x2F;macOS&#x2F;Linux）</li><li>多语言界面（英&#x2F;简中&#x2F;繁中&#x2F;越南语）</li><li>自动化配置重置功能</li><li>多浏览器路径配置支持</li></ul><hr><h2 id="🚀-nvm-sh-nvm"><a href="#🚀-nvm-sh-nvm" class="headerlink" title="🚀 nvm-sh &#x2F;nvm"></a>🚀 <a href="https://github.com/nvm-sh/nvm">nvm-sh &#x2F;nvm</a></h2><blockquote><p>🔗 <strong>链接</strong>: <a href="https://github.com/nvm-sh/nvm">https://github.com/nvm-sh/nvm</a></p></blockquote><blockquote><p>💡 <strong>简介</strong>：nvm 允许在同一系统上安装和切换多个 Node.js 版本，可通过脚本安装、命令管理版本，支持 LTS 版本安装、自动版本切换等功能。</p></blockquote><h3 id="📊-项目概览-4"><a href="#📊-项目概览-4" class="headerlink" title="📊 项目概览"></a>📊 项目概览</h3><table><thead><tr><th>项目</th><th>值</th></tr></thead><tbody><tr><td>📈 Rise</td><td>59</td></tr><tr><td>⭐ Stars</td><td>89249</td></tr><tr><td>⚒️ Forks</td><td>9555</td></tr><tr><td>💻 Language</td><td>Shell</td></tr></tbody></table><h3 id="✨-核心优势-4"><a href="#✨-核心优势-4" class="headerlink" title="✨ 核心优势"></a>✨ 核心优势</h3><ul><li>支持多Node.js版本安装与切换</li><li>提供便捷的版本管理命令</li><li>支持自动版本切换功能</li><li>完善的环境变量配置</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Github日榜 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>⚡️2025-11-14GitHub日榜Top5｜30秒热点聚合神器</title>
       <link href="/2025/11/13/github_md/%E2%9A%A1%EF%B8%8F2025-11-14GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C30%E7%A7%92%E7%83%AD%E7%82%B9%E8%81%9A%E5%90%88%E7%A5%9E%E5%99%A8/"/>
       <url>/2025/11/13/github_md/%E2%9A%A1%EF%B8%8F2025-11-14GitHub%E6%97%A5%E6%A6%9CTop5%EF%BD%9C30%E7%A7%92%E7%83%AD%E7%82%B9%E8%81%9A%E5%90%88%E7%A5%9E%E5%99%A8/</url>
